@@ -158,6 +158,7 @@ namespace _nmsp1
 			}
 			p_curr = p_curr->next;
 		}
+		cout << "未找到指定节点，插入失败!" << endl;
 		return false;
 	}
 
@@ -193,8 +194,28 @@ namespace _nmsp1
 	template <typename T>
 	bool LinkList<T>::DeleteNode(Node<T> *pdel)
 	{
-		// 删除pdel所指向的节点，请自行添加相关代码......
-		// 特别注意书写和测试删除最后一个节点时可能遇到的问题....
+		if (m_length < 1 || pdel == nullptr || pdel == m_head)
+		{
+			cout << "当前单链表为空，要删除的节点为空，或试图删除哨兵节点，删除失败!" << endl;
+			return false;
+		}
+
+		Node<T> *p_curr = m_head;
+		while (p_curr->next != nullptr && p_curr->next != pdel)
+		{
+			p_curr = p_curr->next;
+		}
+
+		if (p_curr->next == nullptr)
+		{
+			cout << "未找到指定节点，删除失败!" << endl;
+			return false;
+		}
+
+		p_curr->next = pdel->next;
+		delete pdel;
+		m_length--;
+		return true;
 	}
 
 	// 获得第i个位置的元素值
