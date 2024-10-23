@@ -338,7 +338,7 @@ namespace _nmsp1
 
 int main()
 {
-	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF); // 程序退出时检测内存泄漏并显示到“输出”窗口
+	//_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF); // 程序退出时检测内存泄漏并显示到“输出”窗口
 
 	// 第2章 线性表:线性结构，保存的数据象线一样按顺序排列，数据之间一对一的关系。
 	// 第三节 线性表的链式存储

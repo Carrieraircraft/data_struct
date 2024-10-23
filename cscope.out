@@ -1,4 +1,4 @@
-cscope 15 $HOME/data_struct               0000601414
+cscope 15 $HOME/data_struct               0000600989
 	@1 ÁÆóÊ≥ïÊ¶ÇËø∞‰∏éÂü∫Êú¨Ê¶ÇÂøµ/1 Êï∞ÊçÆÁªìÊûÑ‰∏éÁÆóÊ≥ïÊ¶ÇËø∞/MyProject.cpp
 
 5 
@@ -1755,720 +1755,6 @@ i
 	}
 }
 
-	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/10 ÈìæÂºèÈòüÂàó/MyProject.cpp
-
-5 
-	~<io°ªam
->
-
-6 
-	~<as£π.h
->
-
-8 #ifde‡
-_DEBUG
-
-
-9 #i‚de‡
-DEBUG_NEW
-
-
-10 
-	#DEBUG_NEW
- 
-	`√w
-(
-_NORMAL_BLOCK
-,
-__FILE__
-,
-__LINE__
-)
-
-11 
-	#√w
- 
-DEBUG_NEW
-
-
-	)
-
-16 
-usög
- 
-«me•a˚
- 
-	g°d
-;
-
-17 #¥agm®
-w¨nög
-(
-dißbÀ
- : 4996)
-
-21 
-«me•a˚
- 
-	g_nm•1
-
-
-24 
-	gãm∂©e
-<
-ty≥«me
- 
-	gT
->
-
-25 
-	sQueueNode
-
-
-27 
-T
- 
-	gd©a
-;
-
-28 
-	gQueueNode
-<
-	gT
->* 
-	g√xt
-;
-
-32 
-	gãm∂©e
-<
-ty≥«me
- 
-	gT
->
-
-33 ˛as†
-	cLökQueue
-
-
-35 
-	gpublic
-:
-
-36 
-LökQueue
-();
-
-37 ~
-LökQueue
-();
-
-39 
-	gpublic
-:
-
-40 
-boﬁ
- 
-EnQueue
-(c⁄° 
-T
-& 
-e
-);
-
-41 
-boﬁ
- 
-DeQueue
-(
-T
-& 
-e
-);
-
-42 
-boﬁ
- 
-GëHód
-(
-T
-& 
-e
-);
-
-44 
-Di•Li°
-();
-
-45 
-Li°Lígth
-();
-
-47 
-boﬁ
- 
-IsEm±y
-();
-
-49 
-	g¥iv©e
-:
-
-50 
-QueueNode
-<
-T
->* 
-m_‰⁄t
-;
-
-51 
-	gQueueNode
-<
-	gT
->* 
-	gm_ª¨
-;
-
-52 
-	gm_Àngth
-;
-
-56 
-	gãm∂©e
-<
-ty≥«me
- 
-	gT
->
-
-57 
-	gLökQueue
-<
-	gT
->::
-	$LökQueue
-()
-
-59 
-m_‰⁄t
- = 
-√w
- 
-QueueNode
-<
-T
->;
-
-60 
-m_‰⁄t
-->
-√xt
- = 
-nuŒ±r
-;
-
-61 
-m_ª¨
- = 
-m_‰⁄t
-;
-
-62 
-m_Àngth
- = 0;
-
-63 
-	}
-}
-
-66 
-	gãm∂©e
-<
-ty≥«me
- 
-	gT
->
-
-67 
-	gLökQueue
-<
-	gT
->::~
-	$LökQueue
-()
-
-69 
-QueueNode
-<
-T
->* 
-≤ode
- = 
-m_‰⁄t
-->
-√xt
-;
-
-70 
-QueueNode
-<
-T
->* 
-±mp
-;
-
-71 
-≤ode
- !
-nuŒ±r
-)
-
-73 
-±mp
- = 
-≤ode
-;
-
-74 
-≤ode
- =Önode->
-√xt
-;
-
-75 
-dñëe
- 
-±mp
-;
-
-77 
-dñëe
- 
-m_‰⁄t
-;
-
-78 
-m_‰⁄t
- = 
-m_ª¨
- = 
-nuŒ±r
-;
-
-79 
-m_Àngth
- = 0;
-
-80 
-	}
-}
-
-83 
-	gãm∂©e
-<
-ty≥«me
- 
-	gT
->
-
-84 
-boﬁ
- 
-	gLökQueue
-<
-	gT
->::
-	$EnQueue
-(c⁄° 
-T
-& 
-e
-)
-
-86 
-QueueNode
-<
-T
->* 
-node
- = 
-√w
- QueueNode<T>;
-
-87 
-node
-->
-d©a
- = 
-e
-;
-
-88 
-node
-->
-√xt
- = 
-nuŒ±r
-;
-
-90 
-m_ª¨
-->
-√xt
- = 
-node
-;
-
-91 
-m_ª¨
- = 
-node
-;
-
-93 
-m_Àngth
-++;
-
-94  
-åue
-;
-
-95 
-	}
-}
-
-98 
-	gãm∂©e
-<
-ty≥«me
- 
-	gT
->
-
-99 
-boﬁ
- 
-	gLökQueue
-<
-	gT
->::
-	$DeQueue
-(
-T
-& 
-e
-)
-
-101 i‡(
-	`IsEm±y
-(Ë=
-åue
-)
-
-103 
-cout
- << "ÂΩìÂâçÈìæÂºèÈòüÂàó‰∏∫Á©∫Ôºå‰∏çËÉΩËøõË°åÂá∫ÈòüÊìç‰ΩúÔºÅ" << 
-ídl
-;
-
-104  
-Ál£
-;
-
-106 
-QueueNode
-<
-T
->* 
-p_wûldñ
- = 
-m_‰⁄t
-->
-√xt
-;
-
-107 
-e
- = 
-p_wûldñ
-->
-d©a
-;
-
-109 
-m_‰⁄t
-->
-√xt
- = 
-p_wûldñ
-->next;
-
-110 i‡(
-m_ª¨
- =
-p_wûldñ
-)
-
-112 
-m_ª¨
- = 
-m_‰⁄t
-;
-
-115 
-dñëe
- 
-p_wûldñ
-;
-
-116 
-m_Àngth
---;
-
-117  
-åue
-;
-
-118 
-	}
-}
-
-121 
-	gãm∂©e
-<
-ty≥«me
- 
-	gT
->
-
-122 
-boﬁ
- 
-	gLökQueue
-<
-	gT
->::
-	$GëHód
-(
-T
-& 
-e
-)
-
-124 i‡(
-	`IsEm±y
-(Ë=
-åue
-)
-
-126 
-cout
- << "ÂΩìÂâçÈìæÂºèÈòüÂàó‰∏∫Á©∫Ôºå‰∏çËÉΩËØªÂèñÈòüÂ§¥ÂÖÉÁ¥†ÔºÅ" << 
-ídl
-;
-
-127  
-Ál£
-;
-
-129 
-e
- = 
-m_‰⁄t
-->
-√xt
-->
-d©a
-;
-
-130  
-åue
-;
-
-131 
-	}
-}
-
-134 
-	gãm∂©e
-<
-ty≥«me
- 
-	gT
->
-
-135 
-	gLökQueue
-<
-	gT
->::
-	$Di•Li°
-()
-
-137 
-QueueNode
-<
-T
->* 
-p
- = 
-m_‰⁄t
-->
-√xt
-;
-
-138 
-p
- !
-nuŒ±r
-)
-
-140 
-cout
- << 
-p
-->
-d©a
- << " ";
-
-141 
-p
- =Ö->
-√xt
-;
-
-143 
-cout
- << 
-ídl
-;
-
-144 
-	}
-}
-
-147 
-	gãm∂©e
-<
-ty≥«me
- 
-	gT
->
-
-148 
-	gLökQueue
-<
-	gT
->::
-	$Li°Lígth
-()
-
-150  
-m_Àngth
-;
-
-151 
-	}
-}
-
-154 
-	gãm∂©e
-<
-ty≥«me
- 
-	gT
->
-
-155 
-boﬁ
- 
-	gLökQueue
-<
-	gT
->::
-	$IsEm±y
-()
-
-157 i‡(
-m_‰⁄t
- =
-m_ª¨
-)
-
-158  
-åue
-;
-
-159  
-Ál£
-;
-
-160 
-	}
-}
-
-163 
-	$maö
-()
-
-165 
-	`_CπSëDbgFœg
-(
-_CRTDBG_ALLOC_MEM_DF
- | 
-_CRTDBG_LEAK_CHECK_DF
-);
-
-178 
-_nm•1
-::
-LökQueue
-<> 
- obj
-;
-
-179 
- obj
-.
-	`EnQueue
-(150);
-
-181 
-evÆ
- = 0;
-
-182 
- obj
-.
-	`DeQueue
-(
-evÆ
-);
-
-183 
- obj
-.
-	`EnQueue
-(200);
-
-184 
- obj
-.
-	`EnQueue
-(700);
-
-185 
- obj
-.
-	`Di•Li°
-();
-
-189 
-	}
-}
-
 	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/2 ÂçïÈìæË°®/MyProject.cpp
 
 5 
@@ -3687,14 +2973,6 @@ m_Àngth
 	$maö
 ()
 
-341 
-	`_CπSëDbgFœg
-(
-_CRTDBG_ALLOC_MEM_DF
- | 
-_CRTDBG_LEAK_CHECK_DF
-);
-
 380 
 _nm•1
 ::
@@ -3779,7 +3057,7 @@ födvÆue
 	}
 }
 
-	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/5 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/1.ÂèåÈìæË°®/MyProject.cpp
+	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/3 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/1.ÂèåÈìæË°®/MyProject.cpp
 
 5 
 	~<io°ªam
@@ -4767,7 +4045,7 @@ sdbŒökobj
 	}
 }
 
-	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/5 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/2.ÂçïÂæ™ÁéØÈìæË°®/MyProject.cpp
+	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/3 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/2.ÂçïÂæ™ÁéØÈìæË°®/MyProject.cpp
 
 5 
 	~<io°ªam
@@ -5711,7 +4989,7 @@ cout
 	}
 }
 
-	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/5 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/3.ÂèåÂæ™ÁéØÈìæË°®/MyProject.cpp
+	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/3 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/3.ÂèåÂæ™ÁéØÈìæË°®/MyProject.cpp
 
 5 
 	~<io°ªam
@@ -6705,7 +5983,7 @@ sdblcúlökobj
 	}
 }
 
-	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/5 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/MyProject.cpp
+	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/3 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/MyProject.cpp
 
 5 
 	~<io°ªam
@@ -6723,11 +6001,11 @@ DEBUG_NEW
 	#DEBUG_NEW
  
 	`√w
-(
+ (
 _NORMAL_BLOCK
-,
+, 
 __FILE__
-,
+, 
 __LINE__
 )
 
@@ -6781,7 +6059,7 @@ T
 	gDblNode
 <
 	gT
->* 
+> *
 	g¥i‹
 ;
 
@@ -6789,7 +6067,7 @@ T
 	gDblNode
 <
 	gT
->* 
+> *
 	g√xt
 ;
 
@@ -6829,7 +6107,7 @@ Li°In£π
 i
 , c⁄° 
 T
-& 
+ &
 e
 );
 
@@ -6841,7 +6119,7 @@ Li°Dñëe
 i
 );
 
-42 
+41 
 boﬁ
  
 GëEÀm
@@ -6849,33 +6127,33 @@ GëEÀm
 i
 , 
 T
-& 
+ &
 e
 );
 
-43 
+42 
 LoˇãEÀm
 (c⁄° 
 T
-& 
+ &
 e
 );
 
-45 
+44 
 Di•Li°
 ();
 
-46 
+45 
 Li°Lígth
 ();
 
-47 
+46 
 boﬁ
  
 Em±y
 ();
 
-49 
+48 
 boﬁ
  
 In£πPri‹Node
@@ -6883,13 +6161,13 @@ In£πPri‹Node
 DblNode
 <
 T
->* 
+> *
 pcuº
-, DblNode<T>* 
+, DblNode<T> *
 ≤ewnode
 )
 
-56 
+55 
 boﬁ
  
 DñëeNode
@@ -6897,27 +6175,27 @@ DñëeNode
 DblNode
 <
 T
->* 
+> *
 pdñ
 )
 
-62 
+60 
 	g¥iv©e
 :
 
-63 
+61 
 DblNode
 <
 T
->* 
+> *
 m_hód
 ;
 
-64 
+62 
 	gm_Àngth
 ;
 
-68 
+66 
 	gãm∂©e
  <
 ty≥«me
@@ -6925,7 +6203,7 @@ ty≥«me
 	gT
 >
 
-69 
+67 
 	gDblLökLi°
 <
 	gT
@@ -6933,7 +6211,7 @@ ty≥«me
 	$DblLökLi°
 ()
 
-71 
+69 
 m_hód
  = 
 √w
@@ -6943,7 +6221,7 @@ DblNode
 T
 >;
 
-72 
+70 
 m_hód
 ->
 √xt
@@ -6951,7 +6229,7 @@ m_hód
 nuŒ±r
 ;
 
-73 
+71 
 m_hód
 ->
 ¥i‹
@@ -6959,15 +6237,15 @@ m_hód
 nuŒ±r
 ;
 
-74 
+72 
 m_Àngth
  = 0;
 
-75 
+73 
 	}
 }
 
-78 
+76 
 	gãm∂©e
  <
 ty≥«me
@@ -6975,7 +6253,7 @@ ty≥«me
 	gT
 >
 
-79 
+77 
 boﬁ
  
 	gDblLökLi°
@@ -6987,17 +6265,17 @@ boﬁ
 i
 , c⁄° 
 T
-& 
+ &
 e
 )
 
-82 i‡(
+80 i‡(
 i
- < 1 || i >(
+ < 1 || i > (
 m_Àngth
  + 1))
 
-84 
+82 
 cout
  << "ÂÖÉÁ¥†" << 
 e
@@ -7009,43 +6287,43 @@ m_Àngth
 ídl
 ;
 
-85  
+83  
 Ál£
 ;
 
-88 
+86 
 DblNode
 <
 T
->* 
+> *
 p_cuº
  = 
 m_hód
 ;
 
-91 
+89 
 j
  = 0; j < (
 i
  - 1); ++j)
 
-93 
+91 
 p_cuº
  =Ö_cuº->
 √xt
 ;
 
-96 
+94 
 DblNode
 <
 T
->* 
+> *
 node
  = 
 √w
  DblNode<T>;
 
-97 
+95 
 node
 ->
 d©a
@@ -7053,7 +6331,7 @@ d©a
 e
 ;
 
-98 
+96 
 node
 ->
 √xt
@@ -7061,7 +6339,7 @@ node
 p_cuº
 ->next;
 
-100 
+98 
 node
 ->
 ¥i‹
@@ -7069,7 +6347,7 @@ node
 p_cuº
 ;
 
-101 i‡(
+99 i‡(
 p_cuº
 ->
 √xt
@@ -7077,7 +6355,7 @@ p_cuº
 nuŒ±r
 )
 
-102 
+100 
 p_cuº
 ->
 √xt
@@ -7087,7 +6365,7 @@ p_cuº
 node
 ;
 
-104 
+102 
 p_cuº
 ->
 √xt
@@ -7095,7 +6373,7 @@ p_cuº
 node
 ;
 
-106 
+104 
 cout
  << "ÊàêÂäüÂú®‰ΩçÁΩÆ‰∏∫" << 
 i
@@ -7105,27 +6383,27 @@ e
 ídl
 ;
 
-107 
+105 
 m_Àngth
 ++;
 
-108  
+106  
 åue
 ;
 
-109 
+107 
 	}
 }
 
-111 
+109 
 	gãm∂©e
-<
+ <
 ˛ass
  
 	gT
 >
 
-112 
+110 
 	gDblLökLi°
 <
 	gT
@@ -7133,11 +6411,11 @@ m_Àngth
 	$Di•Li°
 ()
 
-114 
+112 
 DblNode
 <
 T
->* 
+> *
 p
  = 
 m_hód
@@ -7145,13 +6423,13 @@ m_hód
 √xt
 ;
 
-115 
+113 
 p
  !
 nuŒ±r
 )
 
-117 
+115 
 cout
  << 
 p
@@ -7159,23 +6437,23 @@ p
 d©a
  << " ";
 
-118 
+116 
 p
  =Ö->
 √xt
 ;
 
-120 
+118 
 cout
  << 
 ídl
 ;
 
-121 
+119 
 	}
 }
 
-124 
+122 
 	gãm∂©e
  <
 ty≥«me
@@ -7183,7 +6461,7 @@ ty≥«me
 	gT
 >
 
-125 
+123 
 	gDblLökLi°
 <
 	gT
@@ -7191,11 +6469,11 @@ ty≥«me
 	$DblLökLi°
 ()
 
-127 
+125 
 DblNode
 <
 T
->* 
+> *
 ≤ode
  = 
 m_hód
@@ -7203,67 +6481,67 @@ m_hód
 √xt
 ;
 
-128 
+126 
 DblNode
 <
 T
->* 
+> *
 ±mp
 ;
 
-129 
+127 
 ≤ode
  !
 nuŒ±r
 )
 
-131 
+129 
 ±mp
  = 
 ≤ode
 ;
 
-132 
+130 
 ≤ode
  =Önode->
 √xt
 ;
 
-134 
+132 
 dñëe
  
 ±mp
 ;
 
-136 
+134 
 dñëe
  
 m_hód
 ;
 
-137 
+135 
 m_hód
  = 
 nuŒ±r
 ;
 
-138 
+136 
 m_Àngth
  = 0;
 
-139 
+137 
 	}
 }
 
-142 
+140 
 	gãm∂©e
- < 
+ <
 ty≥«me
  
 	gT
 >
 
-143 
+141 
 boﬁ
  
 	gDblLökLi°
@@ -7275,27 +6553,27 @@ boﬁ
 i
 )
 
-145 i‡(
+143 i‡(
 m_Àngth
  < 1)
 
-147 
+145 
 cout
  << "ÂΩìÂâçÂèåÈìæË°®‰∏∫Á©∫Ôºå‰∏çËÉΩÂà†Èô§‰ªª‰ΩïÊï∞ÊçÆ!" << 
 ídl
 ;
 
-148  
+146  
 Ál£
 ;
 
-150 i‡(
+148 i‡(
 i
  < 1 || i > 
 m_Àngth
 )
 
-152 
+150 
 cout
  << "Âà†Èô§ÁöÑ‰ΩçÁΩÆ" << 
 i
@@ -7305,37 +6583,37 @@ m_Àngth
 ídl
 ;
 
-153  
+151  
 Ál£
 ;
 
-156 
+154 
 DblNode
 <
 T
->* 
+> *
 p_cuº
  = 
 m_hód
 ;
 
-159 
+157 
 j
  = 0; j < (
 i
  - 1); ++j)
 
-161 
+159 
 p_cuº
  =Ö_cuº->
 √xt
 ;
 
-164 
+162 
 DblNode
 <
 T
->* 
+> *
 p_wûldñ
  = 
 p_cuº
@@ -7343,11 +6621,11 @@ p_cuº
 √xt
 ;
 
-165 
+163 
 DblNode
 <
 T
->* 
+> *
 p_wûldñNext
  = 
 p_wûldñ
@@ -7355,7 +6633,7 @@ p_wûldñ
 √xt
 ;
 
-166 
+164 
 p_cuº
 ->
 √xt
@@ -7363,13 +6641,13 @@ p_cuº
 p_wûldñ
 ->next;
 
-167 i‡(
+165 i‡(
 p_wûldñNext
  !
 nuŒ±r
 )
 
-168 
+166 
 p_wûldñNext
 ->
 ¥i‹
@@ -7377,7 +6655,7 @@ p_wûldñNext
 p_cuº
 ;
 
-170 
+168 
 cout
  << "ÊàêÂäüÂà†Èô§‰ΩçÁΩÆ‰∏∫" << 
 i
@@ -7389,37 +6667,29 @@ d©a
 ídl
 ;
 
-171 
+169 
 m_Àngth
 --;
 
-172 
+170 
 dñëe
  
 p_wûldñ
 ;
 
-173  
+171  
 åue
 ;
 
-174 
+172 
 	}
 }
 
-178 
+175 
 	$maö
 ()
 
-180 
-	`_CπSëDbgFœg
-(
-_CRTDBG_ALLOC_MEM_DF
- | 
-_CRTDBG_LEAK_CHECK_DF
-);
-
-217 
+206 
 _nm•1
 ::
 DblLökLi°
@@ -7427,59 +6697,59 @@ DblLökLi°
 sdbŒökobj
 ;
 
-218 
+207 
 sdbŒökobj
 .
 	`Li°In£π
 (1, 12);
 
-219 
+208 
 sdbŒökobj
 .
 	`Li°In£π
 (1, 24);
 
-220 
+209 
 sdbŒökobj
 .
 	`Li°In£π
 (3, 48);
 
-221 
+210 
 sdbŒökobj
 .
 	`Li°In£π
 (2, 100);
 
-222 
+211 
 sdbŒökobj
 .
 	`Di•Li°
 ();
 
-224 
+213 
 sdbŒökobj
 .
 	`Li°Dñëe
 (4);
 
-225 
+214 
 sdbŒökobj
 .
 	`Li°Dñëe
 (2);
 
-226 
+215 
 sdbŒökobj
 .
 	`Di•Li°
 ();
 
-229 
+218 
 	}
 }
 
-	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/6 ÈùôÊÄÅÈìæË°®/MyProject.cpp
+	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/4 ÈùôÊÄÅÈìæË°®/MyProject.cpp
 
 5 
 	~<io°ªam
@@ -8711,7 +7981,7 @@ cout
 	}
 }
 
-	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/7 È°∫Â∫èÊ†à/MyProject.cpp
+	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/5 È°∫Â∫èÊ†à/MyProject.cpp
 
 5 
 	~<io°ªam
@@ -9705,7 +8975,7 @@ evÆ2
 	}
 }
 
-	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/8 ÈìæÂºèÊ†à/MyProject.cpp
+	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/6 ÈìæÂºèÊ†à/MyProject.cpp
 
 5 
 	~<io°ªam
@@ -10533,7 +9803,7 @@ cout
 	}
 }
 
-	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/9 È°∫Â∫èÈòüÂàó/MyProject.cpp
+	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/7 È°∫Â∫èÈòüÂàó/MyProject.cpp
 
 5 
 	~<io°ªam
@@ -11241,7 +10511,7 @@ cout
 	}
 }
 
-	@3 Ê†ë/01 Ê†ëÁöÑÊ¶ÇÂøµ‰∏éÊÄßË¥®/MyProject.cpp
+	@2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/8 ÈìæÂºèÈòüÂàó/MyProject.cpp
 
 5 
 	~<io°ªam
@@ -11268,6 +10538,720 @@ _NORMAL_BLOCK
 ,
 __FILE__
 ,
+__LINE__
+)
+
+11 
+	#√w
+ 
+DEBUG_NEW
+
+
+	)
+
+16 
+usög
+ 
+«me•a˚
+ 
+	g°d
+;
+
+17 #¥agm®
+w¨nög
+(
+dißbÀ
+ : 4996)
+
+21 
+«me•a˚
+ 
+	g_nm•1
+
+
+24 
+	gãm∂©e
+<
+ty≥«me
+ 
+	gT
+>
+
+25 
+	sQueueNode
+
+
+27 
+T
+ 
+	gd©a
+;
+
+28 
+	gQueueNode
+<
+	gT
+>* 
+	g√xt
+;
+
+32 
+	gãm∂©e
+<
+ty≥«me
+ 
+	gT
+>
+
+33 ˛as†
+	cLökQueue
+
+
+35 
+	gpublic
+:
+
+36 
+LökQueue
+();
+
+37 ~
+LökQueue
+();
+
+39 
+	gpublic
+:
+
+40 
+boﬁ
+ 
+EnQueue
+(c⁄° 
+T
+& 
+e
+);
+
+41 
+boﬁ
+ 
+DeQueue
+(
+T
+& 
+e
+);
+
+42 
+boﬁ
+ 
+GëHód
+(
+T
+& 
+e
+);
+
+44 
+Di•Li°
+();
+
+45 
+Li°Lígth
+();
+
+47 
+boﬁ
+ 
+IsEm±y
+();
+
+49 
+	g¥iv©e
+:
+
+50 
+QueueNode
+<
+T
+>* 
+m_‰⁄t
+;
+
+51 
+	gQueueNode
+<
+	gT
+>* 
+	gm_ª¨
+;
+
+52 
+	gm_Àngth
+;
+
+56 
+	gãm∂©e
+<
+ty≥«me
+ 
+	gT
+>
+
+57 
+	gLökQueue
+<
+	gT
+>::
+	$LökQueue
+()
+
+59 
+m_‰⁄t
+ = 
+√w
+ 
+QueueNode
+<
+T
+>;
+
+60 
+m_‰⁄t
+->
+√xt
+ = 
+nuŒ±r
+;
+
+61 
+m_ª¨
+ = 
+m_‰⁄t
+;
+
+62 
+m_Àngth
+ = 0;
+
+63 
+	}
+}
+
+66 
+	gãm∂©e
+<
+ty≥«me
+ 
+	gT
+>
+
+67 
+	gLökQueue
+<
+	gT
+>::~
+	$LökQueue
+()
+
+69 
+QueueNode
+<
+T
+>* 
+≤ode
+ = 
+m_‰⁄t
+->
+√xt
+;
+
+70 
+QueueNode
+<
+T
+>* 
+±mp
+;
+
+71 
+≤ode
+ !
+nuŒ±r
+)
+
+73 
+±mp
+ = 
+≤ode
+;
+
+74 
+≤ode
+ =Önode->
+√xt
+;
+
+75 
+dñëe
+ 
+±mp
+;
+
+77 
+dñëe
+ 
+m_‰⁄t
+;
+
+78 
+m_‰⁄t
+ = 
+m_ª¨
+ = 
+nuŒ±r
+;
+
+79 
+m_Àngth
+ = 0;
+
+80 
+	}
+}
+
+83 
+	gãm∂©e
+<
+ty≥«me
+ 
+	gT
+>
+
+84 
+boﬁ
+ 
+	gLökQueue
+<
+	gT
+>::
+	$EnQueue
+(c⁄° 
+T
+& 
+e
+)
+
+86 
+QueueNode
+<
+T
+>* 
+node
+ = 
+√w
+ QueueNode<T>;
+
+87 
+node
+->
+d©a
+ = 
+e
+;
+
+88 
+node
+->
+√xt
+ = 
+nuŒ±r
+;
+
+90 
+m_ª¨
+->
+√xt
+ = 
+node
+;
+
+91 
+m_ª¨
+ = 
+node
+;
+
+93 
+m_Àngth
+++;
+
+94  
+åue
+;
+
+95 
+	}
+}
+
+98 
+	gãm∂©e
+<
+ty≥«me
+ 
+	gT
+>
+
+99 
+boﬁ
+ 
+	gLökQueue
+<
+	gT
+>::
+	$DeQueue
+(
+T
+& 
+e
+)
+
+101 i‡(
+	`IsEm±y
+(Ë=
+åue
+)
+
+103 
+cout
+ << "ÂΩìÂâçÈìæÂºèÈòüÂàó‰∏∫Á©∫Ôºå‰∏çËÉΩËøõË°åÂá∫ÈòüÊìç‰ΩúÔºÅ" << 
+ídl
+;
+
+104  
+Ál£
+;
+
+106 
+QueueNode
+<
+T
+>* 
+p_wûldñ
+ = 
+m_‰⁄t
+->
+√xt
+;
+
+107 
+e
+ = 
+p_wûldñ
+->
+d©a
+;
+
+109 
+m_‰⁄t
+->
+√xt
+ = 
+p_wûldñ
+->next;
+
+110 i‡(
+m_ª¨
+ =
+p_wûldñ
+)
+
+112 
+m_ª¨
+ = 
+m_‰⁄t
+;
+
+115 
+dñëe
+ 
+p_wûldñ
+;
+
+116 
+m_Àngth
+--;
+
+117  
+åue
+;
+
+118 
+	}
+}
+
+121 
+	gãm∂©e
+<
+ty≥«me
+ 
+	gT
+>
+
+122 
+boﬁ
+ 
+	gLökQueue
+<
+	gT
+>::
+	$GëHód
+(
+T
+& 
+e
+)
+
+124 i‡(
+	`IsEm±y
+(Ë=
+åue
+)
+
+126 
+cout
+ << "ÂΩìÂâçÈìæÂºèÈòüÂàó‰∏∫Á©∫Ôºå‰∏çËÉΩËØªÂèñÈòüÂ§¥ÂÖÉÁ¥†ÔºÅ" << 
+ídl
+;
+
+127  
+Ál£
+;
+
+129 
+e
+ = 
+m_‰⁄t
+->
+√xt
+->
+d©a
+;
+
+130  
+åue
+;
+
+131 
+	}
+}
+
+134 
+	gãm∂©e
+<
+ty≥«me
+ 
+	gT
+>
+
+135 
+	gLökQueue
+<
+	gT
+>::
+	$Di•Li°
+()
+
+137 
+QueueNode
+<
+T
+>* 
+p
+ = 
+m_‰⁄t
+->
+√xt
+;
+
+138 
+p
+ !
+nuŒ±r
+)
+
+140 
+cout
+ << 
+p
+->
+d©a
+ << " ";
+
+141 
+p
+ =Ö->
+√xt
+;
+
+143 
+cout
+ << 
+ídl
+;
+
+144 
+	}
+}
+
+147 
+	gãm∂©e
+<
+ty≥«me
+ 
+	gT
+>
+
+148 
+	gLökQueue
+<
+	gT
+>::
+	$Li°Lígth
+()
+
+150  
+m_Àngth
+;
+
+151 
+	}
+}
+
+154 
+	gãm∂©e
+<
+ty≥«me
+ 
+	gT
+>
+
+155 
+boﬁ
+ 
+	gLökQueue
+<
+	gT
+>::
+	$IsEm±y
+()
+
+157 i‡(
+m_‰⁄t
+ =
+m_ª¨
+)
+
+158  
+åue
+;
+
+159  
+Ál£
+;
+
+160 
+	}
+}
+
+163 
+	$maö
+()
+
+165 
+	`_CπSëDbgFœg
+(
+_CRTDBG_ALLOC_MEM_DF
+ | 
+_CRTDBG_LEAK_CHECK_DF
+);
+
+178 
+_nm•1
+::
+LökQueue
+<> 
+ obj
+;
+
+179 
+ obj
+.
+	`EnQueue
+(150);
+
+181 
+evÆ
+ = 0;
+
+182 
+ obj
+.
+	`DeQueue
+(
+evÆ
+);
+
+183 
+ obj
+.
+	`EnQueue
+(200);
+
+184 
+ obj
+.
+	`EnQueue
+(700);
+
+185 
+ obj
+.
+	`Di•Li°
+();
+
+189 
+	}
+}
+
+	@3 Ê†ë/01 Ê†ëÁöÑÊ¶ÇÂøµ‰∏éÊÄßË¥®/MyProject.cpp
+
+5 
+	~<io°ªam
+>
+
+6 
+	~<as£π.h
+>
+
+8 #ifde‡
+_DEBUG
+
+
+9 #i‚de‡
+DEBUG_NEW
+
+
+10 
+	#DEBUG_NEW
+ 
+	`√w
+ (
+_NORMAL_BLOCK
+, 
+__FILE__
+, 
 __LINE__
 )
 
@@ -11303,15 +11287,7 @@ dißbÀ
 	$maö
 ()
 
-28 
-	`_CπSëDbgFœg
-(
-_CRTDBG_ALLOC_MEM_DF
- | 
-_CRTDBG_LEAK_CHECK_DF
-);
-
-106 
+95 
 	}
 }
 
@@ -11337,11 +11313,11 @@ DEBUG_NEW
 	#DEBUG_NEW
  
 	`√w
-(
+ (
 _NORMAL_BLOCK
-,
+, 
 __FILE__
-,
+, 
 __LINE__
 )
 
@@ -11377,15 +11353,7 @@ dißbÀ
 	$maö
 ()
 
-62 
-	`_CπSëDbgFœg
-(
-_CRTDBG_ALLOC_MEM_DF
- | 
-_CRTDBG_LEAK_CHECK_DF
-);
-
-129 
+119 
 	}
 }
 
@@ -11411,11 +11379,11 @@ DEBUG_NEW
 	#DEBUG_NEW
  
 	`√w
-(
+ (
 _NORMAL_BLOCK
-,
+, 
 __FILE__
-,
+, 
 __LINE__
 )
 
@@ -11551,7 +11519,7 @@ ECCHILDSIGN
 poötSign
 , c⁄° 
 T
-& 
+ &
 e
 );
 
@@ -11779,13 +11747,13 @@ ifVÆidR™geIdx
 ¥eOrdî
 (2 * 
 ödex
- +1);
+ + 1);
 
-137 
+138 
 	g¥iv©e
 :
 
-138 
+139 
 boﬁ
  
 ifVÆidR™geIdx
@@ -11793,25 +11761,25 @@ ifVÆidR™geIdx
 ödex
 )
 
-141 i‡(
+142 i‡(
 ödex
  < 1 || index > 
 MaxSize
 )
 
-142  
+143  
 Ál£
 ;
 
-143  
+144  
 	gåue
 ;
 
-146 
+147 
 	g¥iv©e
 :
 
-147 
+148 
 Bö¨yTªeNode
 <
 T
@@ -11821,15 +11789,15 @@ SqBiTªe
 MaxSize
  + 1];
 
-151 
+152 
 	gãm∂©e
-<
+ <
 ˛ass
  
 	gT
 >
 
-153 
+154 
 	gBö¨yTªe
 <
 	gT
@@ -11843,17 +11811,17 @@ ECCHILDSIGN
 poötSign
 , c⁄° 
 T
-& 
+ &
 e
 )
 
-155 i‡(
+156 i‡(
 poötSign
  !
 E_RoŸ
 )
 
-157 i‡(
+158 i‡(
 	`ifVÆidR™geIdx
 (
 ∑rödex
@@ -11861,7 +11829,7 @@ E_RoŸ
 Ál£
 )
 
-159 i‡(
+160 i‡(
 SqBiTªe
 [
 ∑rödex
@@ -11871,33 +11839,33 @@ isVÆid
 Ál£
 )
 
-162 
+163 
 ödex
  = -1;
 
-163 i‡(
+164 i‡(
 poötSign
  =
 E_RoŸ
 )
 
-165 
+166 
 ödex
  = 1;
 
-167 if(
+168 i‡(
 poötSign
  =
 E_ChûdLe·
 )
 
-170 
+171 
 ödex
  = 2 * 
 ∑rödex
 ;
 
-171 i‡(
+172 i‡(
 	`ifVÆidR™geIdx
 (
 ödex
@@ -11905,13 +11873,13 @@ E_ChûdLe·
 Ál£
 )
 
-177 
+178 
 ödex
  = 2 * 
 ∑rödex
- +1;
+ + 1;
 
-178 i‡(
+179 i‡(
 	`ifVÆidR™geIdx
 (
 ödex
@@ -11919,7 +11887,7 @@ E_ChûdLe·
 Ál£
 )
 
-181 
+182 
 SqBiTªe
 [
 ödex
@@ -11929,7 +11897,7 @@ d©a
 e
 ;
 
-182 
+183 
 SqBiTªe
 [
 ödex
@@ -11939,25 +11907,17 @@ isVÆid
 åue
 ;
 
-183  
+184  
 ödex
 ;
 
-184 
+185 
 	}
 }
 
-188 
+189 
 	$maö
 ()
-
-190 
-	`_CπSëDbgFœg
-(
-_CRTDBG_ALLOC_MEM_DF
- | 
-_CRTDBG_LEAK_CHECK_DF
-);
 
 227 
 _nm•1
@@ -12115,7 +12075,7 @@ myåì
 	`¥eOrdî
 ();
 
-255 
+253 
 	}
 }
 
@@ -12141,11 +12101,11 @@ DEBUG_NEW
 	#DEBUG_NEW
  
 	`√w
-(
+ (
 _NORMAL_BLOCK
-,
+, 
 __FILE__
-,
+, 
 __LINE__
 )
 
@@ -12215,7 +12175,7 @@ T
 	gQueueNode
 <
 	gT
->* 
+> *
 	g√xt
 ;
 
@@ -12253,7 +12213,7 @@ boﬁ
 EnQueue
 (c⁄° 
 T
-& 
+ &
 e
 );
 
@@ -12263,7 +12223,7 @@ boﬁ
 DeQueue
 (
 T
-& 
+ &
 e
 );
 
@@ -12273,7 +12233,7 @@ boﬁ
 GëHód
 (
 T
-& 
+ &
 e
 );
 
@@ -12299,7 +12259,7 @@ IsEm±y
 QueueNode
 <
 T
->* 
+> *
 m_‰⁄t
 ;
 
@@ -12307,7 +12267,7 @@ m_‰⁄t
 	gQueueNode
 <
 	gT
->* 
+> *
 	gm_ª¨
 ;
 
@@ -12383,7 +12343,7 @@ ty≥«me
 QueueNode
 <
 T
->* 
+> *
 ≤ode
  = 
 m_‰⁄t
@@ -12395,7 +12355,7 @@ m_‰⁄t
 QueueNode
 <
 T
->* 
+> *
 ±mp
 ;
 
@@ -12463,7 +12423,7 @@ boﬁ
 	$EnQueue
 (c⁄° 
 T
-& 
+ &
 e
 )
 
@@ -12471,7 +12431,7 @@ e
 QueueNode
 <
 T
->* 
+> *
 node
  = 
 √w
@@ -12537,7 +12497,7 @@ boﬁ
 	$DeQueue
 (
 T
-& 
+ &
 e
 )
 
@@ -12561,7 +12521,7 @@ cout
 QueueNode
 <
 T
->* 
+> *
 p_wûldñ
  = 
 m_‰⁄t
@@ -12633,7 +12593,7 @@ boﬁ
 	$GëHód
 (
 T
-& 
+ &
 e
 )
 
@@ -12673,7 +12633,7 @@ d©a
 
 145 
 	gãm∂©e
-<
+ <
 ˛ass
  
 	gT
@@ -12691,7 +12651,7 @@ d©a
 QueueNode
 <
 T
->* 
+> *
 p
  = 
 m_‰⁄t
@@ -12731,7 +12691,7 @@ cout
 
 158 
 	gãm∂©e
-<
+ <
 ˛ass
  
 	gT
@@ -12755,7 +12715,7 @@ m_Àngth
 
 165 
 	gãm∂©e
-<
+ <
 ˛ass
  
 	gT
@@ -12795,7 +12755,7 @@ m_ª¨
 	g_nm•1
 
 
-182 
+181 
 	gãm∂©e
  <
 ty≥«me
@@ -12803,27 +12763,27 @@ ty≥«me
 	gT
 >
 
-183 
+182 
 	sBö¨yTªeNode
 
 
-185 
+184 
 T
  
 	gd©a
 ;
 
-186 
+185 
 Bö¨yTªeNode
-* 
+ *
 	gÀ·Chûd
 ,
 
-187 *
+186 *
 	grightChûd
 ;
 
-193 
+192 
 	gãm∂©e
  <
 ty≥«me
@@ -12831,59 +12791,59 @@ ty≥«me
 	gT
 >
 
-194 ˛as†
+193 ˛as†
 	cBö¨yTªe
 
 
+195 
+	gpublic
+:
+
 196 
-	gpublic
-:
-
-197 
 Bö¨yTªe
 ();
 
-198 ~
+197 ~
 Bö¨yTªe
 ();
 
-199 
+198 
 	gpublic
 :
 
-201 
+200 
 Bö¨yTªeNode
 <
 T
->* 
+> *
 Cª©eNode
-(Bö¨yTªeNode<T>* 
+(Bö¨yTªeNode<T> *
 ∑ª¡node
 , 
 ECCHILDSIGN
  
 poötSign
-, c⁄° T& 
+, c⁄° T &
 e
 );
 
-203 
+202 
 RÀa£Node
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *
 ≤ode
 );
 
-205 
+204 
 	gpublic
 :
 
-207 
+206 
 Cª©eBTªeAcc‹dPT
-(* 
+(*
 p°r
 );
 
@@ -12897,9 +12857,9 @@ Cª©eBTªeAcc‹dPTRecu
 Bö¨yTªeNode
 <
 T
->*& 
+> *&
 äode
-, *& 
+, *&
 p°r
 );
 
@@ -12917,27 +12877,27 @@ p°r
 roŸ
 );
 
-218 
+219 
 	g¥iv©e
 :
 
-219 
+220 
 ¥eOrdî
 (
 Bö¨yTªeNode
 <
 T
->*& 
+> *&
 tNode
 )
 
-221 i‡(
+222 i‡(
 tNode
  !
 nuŒ±r
 )
 
-224 
+225 
 cout
  << ()
 tNode
@@ -12945,7 +12905,7 @@ tNode
 d©a
  << " ";
 
-225 
+226 
 ¥eOrdî
 (
 tNode
@@ -12953,7 +12913,7 @@ tNode
 À·Chûd
 );
 
-226 
+227 
 ¥eOrdî
 (
 tNode
@@ -12961,115 +12921,49 @@ tNode
 rightChûd
 );
 
-230 
+231 
 	gpublic
 :
 
-232 
+233 
 öOrdî
 ()
 
-234 
+235 
 öOrdî
 (
 roŸ
 );
 
-236 
+238 
 	g¥iv©e
 :
 
-237 
+239 
 öOrdî
 (
 Bö¨yTªeNode
 <
 T
->*& 
+> *&
 tNode
 )
 
-239 i‡(
+241 i‡(
 tNode
  !
 nuŒ±r
 )
-
-242 
-öOrdî
-(
-tNode
-->
-À·Chûd
-);
-
-243 
-	gcout
- << ()
-	gtNode
-->
-	gd©a
- << " ";
 
 244 
 öOrdî
 (
 tNode
 ->
-rightChûd
-);
-
-248 
-	gpublic
-:
-
-250 
-po°Ordî
-()
-
-252 
-po°Ordî
-(
-roŸ
-);
-
-254 
-	g¥iv©e
-:
-
-255 
-po°Ordî
-(
-Bö¨yTªeNode
-<
-T
->*& 
-tNode
-)
-
-257 i‡(
-tNode
- !
-nuŒ±r
-)
-
-260 
-po°Ordî
-(
-tNode
-->
 À·Chûd
 );
 
-261 
-po°Ordî
-(
-tNode
-->
-rightChûd
-);
-
-262 
+245 
 	gcout
  << ()
 	gtNode
@@ -13077,61 +12971,127 @@ rightChûd
 	gd©a
  << " ";
 
-266 
+246 
+öOrdî
+(
+tNode
+->
+rightChûd
+);
+
+250 
 	gpublic
 :
 
-268 
-ÀvñOrdî
+252 
+po°Ordî
 ()
 
-270 
-ÀvñOrdî
+254 
+po°Ordî
 (
 roŸ
 );
 
-272 
+257 
 	g¥iv©e
 :
 
-273 
-ÀvñOrdî
+258 
+po°Ordî
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *&
 tNode
 )
 
-275 i‡(
+260 i‡(
 tNode
  !
 nuŒ±r
 )
 
-277 
+263 
+po°Ordî
+(
+tNode
+->
+À·Chûd
+);
+
+264 
+po°Ordî
+(
+tNode
+->
+rightChûd
+);
+
+265 
+	gcout
+ << ()
+	gtNode
+->
+	gd©a
+ << " ";
+
+269 
+	gpublic
+:
+
+271 
+ÀvñOrdî
+()
+
+273 
+ÀvñOrdî
+(
+roŸ
+);
+
+276 
+	g¥iv©e
+:
+
+277 
+ÀvñOrdî
+(
 Bö¨yTªeNode
 <
 T
->* 
+> *
+tNode
+)
+
+279 i‡(
+tNode
+ !
+nuŒ±r
+)
+
+281 
+Bö¨yTªeNode
+<
+T
+> *
 tm≤ode
 ;
 
-278 
+282 
 	g_nm•0
 ::
 LökQueue
-< 
+<
 Bö¨yTªeNode
 <
 T
->* > 
+> *> 
  obj
 ;
 
-279 
+283 
 	g obj
 .
 EnQueue
@@ -13139,13 +13099,13 @@ EnQueue
 tNode
 );
 
-280 !
+284 !
 	g obj
 .
 IsEm±y
 ())
 
-282 
+286 
 	g obj
 .
 DeQueue
@@ -13153,7 +13113,7 @@ DeQueue
 tm≤ode
 );
 
-283 
+287 
 	gcout
  << ()
 	gtm≤ode
@@ -13161,7 +13121,7 @@ tm≤ode
 	gd©a
  << " ";
 
-286 i‡(
+290 i‡(
 	gtm≤ode
 ->
 	gÀ·Chûd
@@ -13173,7 +13133,7 @@ tm≤ode
 rightChûd
  !=Çullptr)
 
-292 i‡(
+295 i‡(
 tm≤ode
 ->
 À·Chûd
@@ -13181,7 +13141,7 @@ tm≤ode
 nuŒ±r
 )
 
-293 
+296 
  obj
 .
 EnQueue
@@ -13191,7 +13151,7 @@ tm≤ode
 À·Chûd
 );
 
-294 i‡(
+297 i‡(
 	gtm≤ode
 ->
 	grightChûd
@@ -13199,7 +13159,7 @@ tm≤ode
 nuŒ±r
 )
 
-295 
+298 
  obj
 .
 EnQueue
@@ -13209,19 +13169,19 @@ tm≤ode
 rightChûd
 );
 
-300 
+303 
 	g¥iv©e
 :
 
-301 
+304 
 Bö¨yTªeNode
 <
 T
->* 
+> *
 roŸ
 ;
 
-305 
+308 
 	gãm∂©e
  <
 ty≥«me
@@ -13229,7 +13189,7 @@ ty≥«me
 	gT
 >
 
-306 
+309 
 	gBö¨yTªe
 <
 	gT
@@ -13237,17 +13197,17 @@ ty≥«me
 	$Bö¨yTªe
 ()
 
-308 
+311 
 roŸ
  = 
 nuŒ±r
 ;
 
-309 
+312 
 	}
 }
 
-311 
+314 
 	gãm∂©e
  <
 ty≥«me
@@ -13255,7 +13215,7 @@ ty≥«me
 	gT
 >
 
-312 
+315 
 	gBö¨yTªe
 <
 	gT
@@ -13263,17 +13223,17 @@ ty≥«me
 	$Bö¨yTªe
 ()
 
-314 
+317 
 	`RÀa£Node
 (
 roŸ
 );
 
-315 
+318 
 	}
 }
 
-318 
+321 
 	gãm∂©e
  <
 ty≥«me
@@ -13281,7 +13241,7 @@ ty≥«me
 	gT
 >
 
-319 
+322 
 	gBö¨yTªe
 <
 	gT
@@ -13291,17 +13251,17 @@ RÀa£Node
 Bö¨yTªeNode
 <
 T
->* 
+> *
 ≤ode
 )
 
-321 i‡(
+324 i‡(
 ≤ode
  !
 nuŒ±r
 )
 
-323 
+326 
 RÀa£Node
 (
 ≤ode
@@ -13309,7 +13269,7 @@ RÀa£Node
 À·Chûd
 );
 
-324 
+327 
 RÀa£Node
 (
 ≤ode
@@ -13317,13 +13277,13 @@ RÀa£Node
 rightChûd
 );
 
-326 
+329 
 dñëe
  
 	g≤ode
 ;
 
-330 
+333 
 	gãm∂©e
  <
 ty≥«me
@@ -13331,11 +13291,11 @@ ty≥«me
 	gT
 >
 
-331 
+334 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 	gBö¨yTªe
 <T>::
 Cª©eNode
@@ -13343,21 +13303,21 @@ Cª©eNode
 Bö¨yTªeNode
 <
 T
->* 
+> *
 ∑ª¡node
 , 
 ECCHILDSIGN
  
 poötSign
-, c⁄° T& 
+, c⁄° T &
 e
 )
 
-334 
+337 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 	gtm≤ode
  = 
 √w
@@ -13367,7 +13327,7 @@ Bö¨yTªeNode
 T
 >;
 
-335 
+338 
 	gtm≤ode
 ->
 	gd©a
@@ -13375,7 +13335,7 @@ T
 e
 ;
 
-336 
+339 
 	gtm≤ode
 ->
 	gÀ·Chûd
@@ -13383,7 +13343,7 @@ e
 nuŒ±r
 ;
 
-337 
+340 
 	gtm≤ode
 ->
 	grightChûd
@@ -13391,25 +13351,25 @@ nuŒ±r
 nuŒ±r
 ;
 
-340 i‡(
+343 i‡(
 	gpoötSign
  =
 E_RoŸ
 )
 
-343 
+346 
 roŸ
  = 
 tm≤ode
 ;
 
-345 i‡(
+348 i‡(
 	gpoötSign
  =
 E_ChûdLe·
 )
 
-348 
+351 
 ∑ª¡node
 ->
 À·Chûd
@@ -13417,13 +13377,13 @@ E_ChûdLe·
 tm≤ode
 ;
 
-350 i‡(
+353 i‡(
 	gpoötSign
  =
 E_ChûdRight
 )
 
-353 
+356 
 ∑ª¡node
 ->
 rightChûd
@@ -13431,11 +13391,11 @@ rightChûd
 tm≤ode
 ;
 
-355  
+358  
 	gtm≤ode
 ;
 
-359 
+362 
 	gãm∂©e
  <
 ty≥«me
@@ -13443,17 +13403,17 @@ ty≥«me
 	gT
 >
 
-360 
+363 
 	gBö¨yTªe
 <
 	gT
 >::
 	$Cª©eBTªeAcc‹dPT
-(* 
+(*
 p°r
 )
 
-362 
+365 
 	`Cª©eBTªeAcc‹dPTRecu
 (
 roŸ
@@ -13461,11 +13421,11 @@ roŸ
 p°r
 );
 
-363 
+366 
 	}
 }
 
-365 
+368 
 	gãm∂©e
  <
 ty≥«me
@@ -13473,7 +13433,7 @@ ty≥«me
 	gT
 >
 
-366 
+369 
 	gBö¨yTªe
 <
 	gT
@@ -13483,23 +13443,23 @@ Cª©eBTªeAcc‹dPTRecu
 Bö¨yTªeNode
 <
 T
->*& 
+> *&
 äode
-, *& 
+, *&
 p°r
 )
 
-369 i‡(*
+372 i‡(*
 	gp°r
  == '#')
 
-371 
+374 
 äode
  = 
 nuŒ±r
 ;
 
-376 
+379 
 	gäode
  = 
 √w
@@ -13509,7 +13469,7 @@ Bö¨yTªeNode
 T
 >;
 
-377 
+380 
 	gäode
 ->
 	gd©a
@@ -13517,7 +13477,7 @@ T
 p°r
 ;
 
-378 
+381 
 Cª©eBTªeAcc‹dPTRecu
 (
 äode
@@ -13527,7 +13487,7 @@ Cª©eBTªeAcc‹dPTRecu
 p°r
 );
 
-379 
+382 
 Cª©eBTªeAcc‹dPTRecu
 (
 äode
@@ -13537,17 +13497,9 @@ rightChûd
 p°r
 );
 
-385 
+388 
 	$maö
 ()
-
-387 
-	`_CπSëDbgFœg
-(
-_CRTDBG_ALLOC_MEM_DF
- | 
-_CRTDBG_LEAK_CHECK_DF
-);
 
 430 
 _nm•1
@@ -13561,7 +13513,7 @@ myåì
 _nm•1
 ::
 Bö¨yTªeNode
-<>* 
+<> *
 roŸpoöt
  = 
 myåì
@@ -13577,7 +13529,7 @@ E_RoŸ
 _nm•1
 ::
 Bö¨yTªeNode
-<>* 
+<> *
 subpoöt
  = 
 myåì
@@ -13621,7 +13573,7 @@ myåì
 E_ChûdRight
 , 'E');
 
-441 
+440 
 _nm•1
 ::
 Bö¨yTªe
@@ -13629,71 +13581,3103 @@ Bö¨yTªe
 myåì2
 ;
 
-442 
+441 
 myåì2
 .
 	`Cª©eBTªeAcc‹dPT
 ((*)"ABD###C#E##");
 
-444 
+443 
 cout
  << "ÂâçÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
 
-445 
+444 
 myåì2
 .
 	`¥eOrdî
 ();
 
-446 
+445 
 cout
  << 
 ídl
 ;
 
-449 
+447 
 cout
  << "‰∏≠Â∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
 
-450 
+448 
 myåì2
 .
 	`öOrdî
 ();
 
-451 
+449 
 cout
  << 
 ídl
 ;
 
-454 
+451 
 cout
  << "ÂêéÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
 
-455 
+452 
 myåì2
 .
 	`po°Ordî
 ();
 
-457 
+454 
 cout
  << 
 ídl
 ;
 
-458 
+455 
 cout
  << "Â±ÇÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
 
-459 
+456 
 myåì2
 .
 	`ÀvñOrdî
 ();
 
-465 
+459 
+	}
+}
+
+	@3 Ê†ë/05 Ê†ëÁöÑÈùûÈÄíÂΩíÈÅçÂéÜ Ê†à/MyProject.cpp
+
+5 
+	~<io°ªam
+>
+
+6 
+	~<as£π.h
+>
+
+8 #ifde‡
+_DEBUG
+
+
+9 #i‚de‡
+DEBUG_NEW
+
+
+10 
+	#DEBUG_NEW
+ 
+	`√w
+ (
+_NORMAL_BLOCK
+, 
+__FILE__
+, 
+__LINE__
+)
+
+11 
+	#√w
+ 
+DEBUG_NEW
+
+
+	)
+
+16 
+usög
+ 
+«me•a˚
+ 
+	g°d
+;
+
+17 #¥agm®
+w¨nög
+(
+dißbÀ
+ : 4996)
+
+20 
+	eECCHILDSIGN
+
+
+22 
+	mE_RoŸ
+,
+
+23 
+	mE_ChûdLe·
+,
+
+24 
+	mE_ChûdRight
+
+
+28 
+«me•a˚
+ 
+	g_nm•_1
+
+
+31 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+32 
+	sSèckNode
+
+
+34 
+T
+ 
+	gd©a
+;
+
+35 
+	gSèckNode
+<
+	gT
+> *
+	g√xt
+;
+
+39 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+40 ˛as†
+	cLökSèck
+
+
+42 
+	gpublic
+:
+
+43 
+LökSèck
+();
+
+44 ~
+LökSèck
+();
+
+46 
+	gpublic
+:
+
+47 
+boﬁ
+ 
+Push
+(c⁄° 
+T
+ &
+e
+);
+
+48 
+boﬁ
+ 
+P›
+(
+T
+ &
+e
+);
+
+49 
+boﬁ
+ 
+GëT›
+(
+T
+ &
+e
+);
+
+51 
+Di•Li°
+();
+
+52 
+Li°Lígth
+();
+
+53 
+boﬁ
+ 
+Em±y
+();
+
+55 
+	g¥iv©e
+:
+
+56 
+SèckNode
+<
+T
+> *
+m_t›
+;
+
+57 
+	gm_Àngth
+;
+
+61 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+62 
+	gLökSèck
+<
+	gT
+>::
+	$LökSèck
+()
+
+64 
+m_t›
+ = 
+nuŒ±r
+;
+
+65 
+m_Àngth
+ = 0;
+
+66 
+	}
+}
+
+69 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+70 
+boﬁ
+ 
+	gLökSèck
+<
+	gT
+>::
+	$Push
+(c⁄° 
+T
+ &
+e
+)
+
+72 
+SèckNode
+<
+T
+> *
+node
+ = 
+√w
+ StackNode<T>;
+
+73 
+node
+->
+d©a
+ = 
+e
+;
+
+74 
+node
+->
+√xt
+ = 
+m_t›
+;
+
+75 
+m_t›
+ = 
+node
+;
+
+76 
+m_Àngth
+++;
+
+77  
+åue
+;
+
+78 
+	}
+}
+
+81 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+82 
+boﬁ
+ 
+	gLökSèck
+<
+	gT
+>::
+	$P›
+(
+T
+ &
+e
+)
+
+84 i‡(
+	`Em±y
+(Ë=
+åue
+)
+
+85  
+Ál£
+;
+
+87 
+SèckNode
+<
+T
+> *
+p_wûldñ
+ = 
+m_t›
+;
+
+88 
+m_t›
+ = m_t›->
+√xt
+;
+
+89 
+m_Àngth
+--;
+
+90 
+e
+ = 
+p_wûldñ
+->
+d©a
+;
+
+91 
+dñëe
+ 
+p_wûldñ
+;
+
+92  
+åue
+;
+
+93 
+	}
+}
+
+96 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+97 
+boﬁ
+ 
+	gLökSèck
+<
+	gT
+>::
+	$GëT›
+(
+T
+ &
+e
+)
+
+99 i‡(
+	`Em±y
+(Ë=
+åue
+)
+
+100  
+Ál£
+;
+
+102 
+e
+ = 
+m_t›
+->
+d©a
+;
+
+103  
+åue
+;
+
+104 
+	}
+}
+
+107 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+108 
+	gLökSèck
+<
+	gT
+>::
+	$Di•Li°
+()
+
+110 i‡(
+	`Em±y
+(Ë=
+åue
+)
+
+113 
+SèckNode
+<
+T
+> *
+p
+ = 
+m_t›
+;
+
+114 
+p
+ !
+nuŒ±r
+)
+
+116 
+cout
+ << 
+p
+->
+d©a
+ << " ";
+
+117 
+p
+ =Ö->
+√xt
+;
+
+119 
+cout
+ << 
+ídl
+;
+
+120 
+	}
+}
+
+123 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+124 
+	gLökSèck
+<
+	gT
+>::
+	$Li°Lígth
+()
+
+126  
+m_Àngth
+;
+
+127 
+	}
+}
+
+130 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+131 
+boﬁ
+ 
+	gLökSèck
+<
+	gT
+>::
+	$Em±y
+()
+
+133 i‡(
+m_t›
+ =
+nuŒ±r
+)
+
+135  
+åue
+;
+
+137  
+Ál£
+;
+
+138 
+	}
+}
+
+141 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+142 
+	gLökSèck
+<
+	gT
+>::~
+	$LökSèck
+()
+
+144 
+T
+ 
+tm≤ou£vÆue
+ = {0};
+
+145 
+	`P›
+(
+tm≤ou£vÆue
+Ë=
+åue
+)
+
+148 
+	}
+}
+
+152 
+«me•a˚
+ 
+	g_nm•0
+
+
+155 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+156 
+	sQueueNode
+
+
+158 
+T
+ 
+	gd©a
+;
+
+159 
+	gQueueNode
+<
+	gT
+> *
+	g√xt
+;
+
+163 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+164 ˛as†
+	cLökQueue
+
+
+166 
+	gpublic
+:
+
+167 
+LökQueue
+();
+
+168 ~
+LökQueue
+();
+
+170 
+	gpublic
+:
+
+171 
+boﬁ
+ 
+EnQueue
+(c⁄° 
+T
+ &
+e
+);
+
+172 
+boﬁ
+ 
+DeQueue
+(
+T
+ &
+e
+);
+
+173 
+boﬁ
+ 
+GëHód
+(
+T
+ &
+e
+);
+
+175 
+Di•Li°
+();
+
+176 
+Li°Lígth
+();
+
+178 
+boﬁ
+ 
+IsEm±y
+();
+
+180 
+	g¥iv©e
+:
+
+181 
+QueueNode
+<
+T
+> *
+m_‰⁄t
+;
+
+182 
+	gQueueNode
+<
+	gT
+> *
+	gm_ª¨
+;
+
+183 
+	gm_Àngth
+;
+
+187 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+188 
+	gLökQueue
+<
+	gT
+>::
+	$LökQueue
+()
+
+190 
+m_‰⁄t
+ = 
+√w
+ 
+QueueNode
+<
+T
+>;
+
+191 
+m_‰⁄t
+->
+√xt
+ = 
+nuŒ±r
+;
+
+192 
+m_ª¨
+ = 
+m_‰⁄t
+;
+
+193 
+m_Àngth
+ = 0;
+
+198 
+	}
+}
+
+201 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+202 
+	gLökQueue
+<
+	gT
+>::~
+	$LökQueue
+()
+
+204 
+QueueNode
+<
+T
+> *
+≤ode
+ = 
+m_‰⁄t
+->
+√xt
+;
+
+205 
+QueueNode
+<
+T
+> *
+±mp
+;
+
+206 
+≤ode
+ !
+nuŒ±r
+)
+
+208 
+±mp
+ = 
+≤ode
+;
+
+209 
+≤ode
+ =Önode->
+√xt
+;
+
+210 
+dñëe
+ 
+±mp
+;
+
+212 
+dñëe
+ 
+m_‰⁄t
+;
+
+213 
+m_‰⁄t
+ = 
+m_ª¨
+ = 
+nuŒ±r
+;
+
+214 
+m_Àngth
+ = 0;
+
+215 
+	}
+}
+
+218 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+219 
+boﬁ
+ 
+	gLökQueue
+<
+	gT
+>::
+	$EnQueue
+(c⁄° 
+T
+ &
+e
+)
+
+221 
+QueueNode
+<
+T
+> *
+node
+ = 
+√w
+ QueueNode<T>;
+
+222 
+node
+->
+d©a
+ = 
+e
+;
+
+223 
+node
+->
+√xt
+ = 
+nuŒ±r
+;
+
+225 
+m_ª¨
+->
+√xt
+ = 
+node
+;
+
+226 
+m_ª¨
+ = 
+node
+;
+
+228 
+m_Àngth
+++;
+
+229  
+åue
+;
+
+230 
+	}
+}
+
+233 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+234 
+boﬁ
+ 
+	gLökQueue
+<
+	gT
+>::
+	$DeQueue
+(
+T
+ &
+e
+)
+
+236 i‡(
+	`IsEm±y
+(Ë=
+åue
+)
+
+238 
+cout
+ << "ÂΩìÂâçÈìæÂºèÈòüÂàó‰∏∫Á©∫Ôºå‰∏çËÉΩËøõË°åÂá∫ÈòüÊìç‰Ωú!" << 
+ídl
+;
+
+239  
+Ál£
+;
+
+242 
+QueueNode
+<
+T
+> *
+p_wûldñ
+ = 
+m_‰⁄t
+->
+√xt
+;
+
+243 
+e
+ = 
+p_wûldñ
+->
+d©a
+;
+
+245 
+m_‰⁄t
+->
+√xt
+ = 
+p_wûldñ
+->next;
+
+246 i‡(
+m_ª¨
+ =
+p_wûldñ
+)
+
+247 
+m_ª¨
+ = 
+m_‰⁄t
+;
+
+249 
+dñëe
+ 
+p_wûldñ
+;
+
+250 
+m_Àngth
+--;
+
+251  
+åue
+;
+
+252 
+	}
+}
+
+255 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+256 
+boﬁ
+ 
+	gLökQueue
+<
+	gT
+>::
+	$GëHód
+(
+T
+ &
+e
+)
+
+258 i‡(
+	`IsEm±y
+(Ë=
+åue
+)
+
+260 
+cout
+ << "ÂΩìÂâçÈìæÂºèÈòüÂàó‰∏∫Á©∫Ôºå‰∏çËÉΩËØªÂèñÈòüÂ§¥ÂÖÉÁ¥†!" << 
+ídl
+;
+
+261  
+Ál£
+;
+
+264 
+e
+ = 
+m_‰⁄t
+->
+√xt
+->
+d©a
+;
+
+265  
+åue
+;
+
+266 
+	}
+}
+
+269 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+270 
+	gLökQueue
+<
+	gT
+>::
+	$Di•Li°
+()
+
+272 
+QueueNode
+<
+T
+> *
+p
+ = 
+m_‰⁄t
+->
+√xt
+;
+
+273 
+p
+ !
+nuŒ±r
+)
+
+275 
+cout
+ << 
+p
+->
+d©a
+ << " ";
+
+276 
+p
+ =Ö->
+√xt
+;
+
+278 
+cout
+ << 
+ídl
+;
+
+279 
+	}
+}
+
+282 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+283 
+	gLökQueue
+<
+	gT
+>::
+	$Li°Lígth
+()
+
+285  
+m_Àngth
+;
+
+286 
+	}
+}
+
+289 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+290 
+boﬁ
+ 
+	gLökQueue
+<
+	gT
+>::
+	$IsEm±y
+()
+
+292 i‡(
+m_‰⁄t
+ =
+m_ª¨
+)
+
+294  
+åue
+;
+
+296  
+Ál£
+;
+
+297 
+	}
+}
+
+301 
+«me•a˚
+ 
+	g_nm•1
+
+
+305 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+306 
+	sBö¨yTªeNode
+
+
+308 
+T
+ 
+	gd©a
+;
+
+309 
+Bö¨yTªeNode
+ *
+	gÀ·Chûd
+,
+
+310 *
+	grightChûd
+;
+
+316 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+317 
+	sBTNode_exåa
+
+
+319 
+	gBö¨yTªeNode
+<
+	gT
+> *
+	gpoöt
+;
+
+320 
+ECCHILDSIGN
+ 
+	gpoötSign
+;
+
+324 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+325 ˛as†
+	cBö¨yTªe
+
+
+327 
+	gpublic
+:
+
+328 
+Bö¨yTªe
+();
+
+329 ~
+Bö¨yTªe
+();
+
+330 
+	gpublic
+:
+
+332 
+Bö¨yTªeNode
+<
+T
+> *
+Cª©eNode
+(Bö¨yTªeNode<T> *
+∑ª¡node
+, 
+ECCHILDSIGN
+ 
+poötSign
+, c⁄° T &
+e
+);
+
+334 
+RÀa£Node
+(
+Bö¨yTªeNode
+<
+T
+> *
+≤ode
+);
+
+336 
+	gpublic
+:
+
+338 
+Cª©eBTªeAcc‹dPT
+(*
+p°r
+);
+
+340 
+	g¥iv©e
+:
+
+342 
+Cª©eBTªeAcc‹dPTRecu
+(
+Bö¨yTªeNode
+<
+T
+> *&
+äode
+, *&
+p°r
+);
+
+344 
+	gpublic
+:
+
+346 
+¥eOrdî
+()
+
+348 
+¥eOrdî
+(
+roŸ
+);
+
+351 
+	g¥iv©e
+:
+
+352 
+¥eOrdî
+(
+Bö¨yTªeNode
+<
+T
+> *&
+tNode
+)
+
+354 i‡(
+tNode
+ !
+nuŒ±r
+)
+
+357 
+cout
+ << ()
+tNode
+->
+d©a
+ << " ";
+
+358 
+¥eOrdî
+(
+tNode
+->
+À·Chûd
+);
+
+359 
+¥eOrdî
+(
+tNode
+->
+rightChûd
+);
+
+363 
+	gpublic
+:
+
+365 
+öOrdî
+()
+
+367 
+öOrdî
+(
+roŸ
+);
+
+370 
+	g¥iv©e
+:
+
+371 
+öOrdî
+(
+Bö¨yTªeNode
+<
+T
+> *&
+tNode
+)
+
+373 i‡(
+tNode
+ !
+nuŒ±r
+)
+
+376 
+öOrdî
+(
+tNode
+->
+À·Chûd
+);
+
+377 
+	gcout
+ << ()
+	gtNode
+->
+	gd©a
+ << " ";
+
+378 
+öOrdî
+(
+tNode
+->
+rightChûd
+);
+
+382 
+	gpublic
+:
+
+384 
+po°Ordî
+()
+
+386 
+po°Ordî
+(
+roŸ
+);
+
+389 
+	g¥iv©e
+:
+
+390 
+po°Ordî
+(
+Bö¨yTªeNode
+<
+T
+> *&
+tNode
+)
+
+392 i‡(
+tNode
+ !
+nuŒ±r
+)
+
+395 
+po°Ordî
+(
+tNode
+->
+À·Chûd
+);
+
+396 
+po°Ordî
+(
+tNode
+->
+rightChûd
+);
+
+397 
+	gcout
+ << ()
+	gtNode
+->
+	gd©a
+ << " ";
+
+401 
+	gpublic
+:
+
+403 
+ÀvñOrdî
+()
+
+405 
+ÀvñOrdî
+(
+roŸ
+);
+
+408 
+	g¥iv©e
+:
+
+409 
+ÀvñOrdî
+(
+Bö¨yTªeNode
+<
+T
+> *
+tNode
+)
+
+411 i‡(
+tNode
+ !
+nuŒ±r
+)
+
+413 
+Bö¨yTªeNode
+<
+T
+> *
+tm≤ode
+;
+
+414 
+	g_nm•0
+::
+LökQueue
+<
+Bö¨yTªeNode
+<
+T
+> *> 
+ obj
+;
+
+415 
+	g obj
+.
+EnQueue
+(
+tNode
+);
+
+416 !
+	g obj
+.
+IsEm±y
+())
+
+418 
+	g obj
+.
+DeQueue
+(
+tm≤ode
+);
+
+419 
+	gcout
+ << ()
+	gtm≤ode
+->
+	gd©a
+ << " ";
+
+422 i‡(
+	gtm≤ode
+->
+	gÀ·Chûd
+ =
+nuŒ±r
+ && 
+tm≤ode
+->
+rightChûd
+ !=Çullptr)
+
+427 i‡(
+tm≤ode
+->
+À·Chûd
+ !
+nuŒ±r
+)
+
+428 
+ obj
+.
+EnQueue
+(
+tm≤ode
+->
+À·Chûd
+);
+
+429 i‡(
+	gtm≤ode
+->
+	grightChûd
+ !
+nuŒ±r
+)
+
+430 
+ obj
+.
+EnQueue
+(
+tm≤ode
+->
+rightChûd
+);
+
+435 
+	gpublic
+:
+
+437 
+gëSize
+()
+
+439  
+gëSize
+(
+roŸ
+);
+
+441 
+gëSize
+(
+Bö¨yTªeNode
+<
+T
+> *
+tNode
+)
+
+443 i‡(
+	gtNode
+ =
+nuŒ±r
+)
+
+446  
+gëSize
+(
+tNode
+->
+À·Chûd
+Ë+ gëSize—Node->
+rightChûd
+) + 1;
+
+450 
+gëHeight
+()
+
+452  
+gëHeight
+(
+roŸ
+);
+
+454 
+gëHeight
+(
+Bö¨yTªeNode
+<
+T
+> *
+tNode
+)
+
+456 i‡(
+	gtNode
+ =
+nuŒ±r
+)
+
+458 
+	glheight
+ = 
+gëHeight
+(
+tNode
+->
+À·Chûd
+);
+
+459 
+	grheight
+ = 
+gëHeight
+(
+tNode
+->
+rightChûd
+);
+
+460 i‡(
+	glheight
+ > 
+	grheight
+)
+
+461  
+	glheight
+ + 1;
+
+462  
+	grheight
+ + 1;
+
+466 
+	gBö¨yTªeNode
+<
+	gT
+> *
+SórchEÀm
+(c⁄° 
+T
+ &
+e
+)
+
+468  
+SórchEÀm
+(
+roŸ
+, 
+e
+);
+
+470 
+	gBö¨yTªeNode
+<
+	gT
+> *
+SórchEÀm
+(
+Bö¨yTªeNode
+<
+T
+> *
+tNode
+, c⁄° T &
+e
+)
+
+472 i‡(
+	gtNode
+ =
+nuŒ±r
+)
+
+473  
+nuŒ±r
+;
+
+475 i‡(
+	gtNode
+->
+	gd©a
+ =
+e
+)
+
+476  
+tNode
+;
+
+478 
+	gBö¨yTªeNode
+<
+	gT
+> *
+	gp
+ = 
+SórchEÀm
+(
+tNode
+->
+À·Chûd
+, 
+e
+);
+
+479 i‡(
+	gp
+ !
+nuŒ±r
+)
+
+480  
+p
+;
+
+481  
+SórchEÀm
+(
+tNode
+->
+rightChûd
+, 
+e
+);
+
+485 
+	gBö¨yTªeNode
+<
+	gT
+> *
+GëP¨ít
+(
+Bö¨yTªeNode
+<
+T
+> *
+tS⁄Node
+)
+
+487  
+GëP¨ít
+(
+roŸ
+, 
+tS⁄Node
+);
+
+489 
+	gBö¨yTªeNode
+<
+	gT
+> *
+GëP¨ít
+(
+Bö¨yTªeNode
+<
+T
+> *
+tP¨Node
+, Bö¨yTªeNode<T> *
+tS⁄Node
+)
+
+491 i‡(
+	gtP¨Node
+ =
+nuŒ±r
+ || 
+tS⁄Node
+ ==Çullptr)
+
+492  
+nuŒ±r
+;
+
+494 i‡(
+	gtP¨Node
+->
+	gÀ·Chûd
+ =
+tS⁄Node
+ || 
+tP¨Node
+->
+rightChûd
+ ==ÅSonNode)
+
+495  
+tP¨Node
+;
+
+497 
+	gBö¨yTªeNode
+<
+	gT
+> *
+	g∂
+ = 
+GëP¨ít
+(
+tP¨Node
+->
+À·Chûd
+, 
+tS⁄Node
+);
+
+498 i‡(
+	g∂
+ !
+nuŒ±r
+)
+
+499  
+∂
+;
+
+501  
+GëP¨ít
+(
+tP¨Node
+->
+rightChûd
+, 
+tS⁄Node
+);
+
+505 
+C›yTªe
+(
+Bö¨yTªe
+<
+T
+> *
+èrgëTªe
+)
+
+507 
+C›yTªe
+(
+roŸ
+, 
+èrgëTªe
+->root);
+
+509 
+C›yTªe
+(
+Bö¨yTªeNode
+<
+T
+> *
+tSour˚
+, Bö¨yTªeNode<T> *&
+tT¨gë
+)
+
+511 i‡(
+	gtSour˚
+ =
+nuŒ±r
+)
+
+513 
+tT¨gë
+ = 
+nuŒ±r
+;
+
+517 
+	gtT¨gë
+ = 
+√w
+ 
+Bö¨yTªeNode
+<
+T
+>;
+
+518 
+	gtT¨gë
+->
+	gd©a
+ = 
+tSour˚
+->
+d©a
+;
+
+520 
+C›yTªe
+(
+tSour˚
+->
+À·Chûd
+, 
+tT¨gë
+->leftChild);
+
+521 
+C›yTªe
+(
+tSour˚
+->
+rightChûd
+, 
+tT¨gë
+->rightChild);
+
+526 
+¥eOrdî_noRecu
+()
+
+528 
+¥eOrdî_noRecu
+(
+roŸ
+);
+
+530 
+¥eOrdî_noRecu
+(
+Bö¨yTªeNode
+<
+T
+> *
+tRoŸ
+)
+
+532 i‡(
+	gtRoŸ
+ =
+nuŒ±r
+)
+
+535 
+	g_nm•_1
+::
+LökSèck
+<
+Bö¨yTªeNode
+<
+T
+> *> 
+¶ökobj
+;
+
+536 
+	g¶ökobj
+.
+Push
+(
+tRoŸ
+);
+
+538 
+	gBö¨yTªeNode
+<
+	gT
+> *
+	gtm≤ode
+;
+
+539 !
+	g¶ökobj
+.
+Em±y
+())
+
+541 
+	g¶ökobj
+.
+P›
+(
+tm≤ode
+);
+
+542 
+	gcout
+ << ()
+	gtm≤ode
+->
+	gd©a
+ << " ";
+
+544 i‡(
+	gtm≤ode
+->
+	grightChûd
+ !
+nuŒ±r
+)
+
+546 
+¶ökobj
+.
+Push
+(
+tm≤ode
+->
+rightChûd
+);
+
+549 i‡(
+	gtm≤ode
+->
+	gÀ·Chûd
+ !
+nuŒ±r
+)
+
+551 
+¶ökobj
+.
+Push
+(
+tm≤ode
+->
+À·Chûd
+);
+
+557 
+öOrdî_noRecu
+()
+
+559 
+öOrdî_noRecu
+(
+roŸ
+);
+
+561 
+öOrdî_noRecu
+(
+Bö¨yTªeNode
+<
+T
+> *
+tRoŸ
+)
+
+563 i‡(
+	gtRoŸ
+ =
+nuŒ±r
+)
+
+566 
+	g_nm•_1
+::
+LökSèck
+<
+Bö¨yTªeNode
+<
+T
+> *> 
+¶ökobj
+;
+
+567 
+	g¶ökobj
+.
+Push
+(
+tRoŸ
+);
+
+569 
+	gBö¨yTªeNode
+<
+	gT
+> *
+	gtm≤ode
+;
+
+570 !
+	g¶ökobj
+.
+Em±y
+())
+
+572 
+	gtRoŸ
+->
+	gÀ·Chûd
+ !
+nuŒ±r
+)
+
+574 
+¶ökobj
+.
+Push
+(
+tRoŸ
+->
+À·Chûd
+);
+
+575 
+	gtRoŸ
+ = 
+tRoŸ
+->
+À·Chûd
+;
+
+578 
+	g¶ökobj
+.
+P›
+(
+tm≤ode
+);
+
+579 
+	gcout
+ << ()
+	gtm≤ode
+->
+	gd©a
+ << " ";
+
+582 i‡(
+	gtm≤ode
+->
+	grightChûd
+ !
+nuŒ±r
+)
+
+584 
+tRoŸ
+ = 
+tm≤ode
+->
+rightChûd
+;
+
+585 
+	g¶ökobj
+.
+Push
+(
+tRoŸ
+);
+
+591 
+po°Ordî_noRecu
+()
+
+593 
+po°Ordî_noRecu
+(
+roŸ
+);
+
+595 
+po°Ordî_noRecu
+(
+Bö¨yTªeNode
+<
+T
+> *
+tRoŸ
+)
+
+597 i‡(
+	gtRoŸ
+ =
+nuŒ±r
+)
+
+600 
+	g_nm•_1
+::
+LökSèck
+<
+BTNode_exåa
+<
+T
+>> 
+¶ökobj
+;
+
+601 
+	gBTNode_exåa
+<
+	gT
+> 
+	gext_tm≤ode
+;
+
+605 
+	gtRoŸ
+ !
+nuŒ±r
+)
+
+607 
+ext_tm≤ode
+.
+poöt
+ = 
+tRoŸ
+;
+
+608 
+	gext_tm≤ode
+.
+	gpoötSign
+ = 
+E_ChûdLe·
+;
+
+609 
+	g¶ökobj
+.
+Push
+(
+ext_tm≤ode
+);
+
+610 
+	gtRoŸ
+ = 
+tRoŸ
+->
+À·Chûd
+;
+
+613 !
+	g¶ökobj
+.
+Em±y
+())
+
+615 
+	g¶ökobj
+.
+P›
+(
+ext_tm≤ode
+);
+
+616 i‡(
+	gext_tm≤ode
+.
+	gpoötSign
+ =
+E_ChûdLe·
+)
+
+618 
+ext_tm≤ode
+.
+poötSign
+ = 
+E_ChûdRight
+;
+
+619 
+	g¶ökobj
+.
+Push
+(
+ext_tm≤ode
+);
+
+620 
+	gtRoŸ
+ = 
+ext_tm≤ode
+.
+poöt
+->
+rightChûd
+;
+
+625 
+	gcout
+ << ()
+	gext_tm≤ode
+.
+	gpoöt
+->
+	gd©a
+ << " ";
+
+628 } !
+	g¶ökobj
+.
+Em±y
+());
+
+631 
+	g¥iv©e
+:
+
+632 
+Bö¨yTªeNode
+<
+T
+> *
+roŸ
+;
+
+636 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+637 
+	gBö¨yTªe
+<
+	gT
+>::
+	$Bö¨yTªe
+()
+
+639 
+roŸ
+ = 
+nuŒ±r
+;
+
+640 
+	}
+}
+
+642 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+643 
+	gBö¨yTªe
+<
+	gT
+>::~
+	$Bö¨yTªe
+()
+
+645 
+	`RÀa£Node
+(
+roŸ
+);
+
+646 
+	}
+}
+
+649 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+650 
+	gBö¨yTªe
+<
+	gT
+>::
+RÀa£Node
+(
+Bö¨yTªeNode
+<
+T
+> *
+≤ode
+)
+
+652 i‡(
+≤ode
+ !
+nuŒ±r
+)
+
+654 
+RÀa£Node
+(
+≤ode
+->
+À·Chûd
+);
+
+655 
+RÀa£Node
+(
+≤ode
+->
+rightChûd
+);
+
+657 
+dñëe
+ 
+	g≤ode
+;
+
+661 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+662 
+	gBö¨yTªeNode
+<
+	gT
+> *
+	gBö¨yTªe
+<T>::
+Cª©eNode
+(
+Bö¨yTªeNode
+<
+T
+> *
+∑ª¡node
+, 
+ECCHILDSIGN
+ 
+poötSign
+, c⁄° T &
+e
+)
+
+665 
+	gBö¨yTªeNode
+<
+	gT
+> *
+	gtm≤ode
+ = 
+√w
+ 
+Bö¨yTªeNode
+<
+T
+>;
+
+666 
+	gtm≤ode
+->
+	gd©a
+ = 
+e
+;
+
+667 
+	gtm≤ode
+->
+	gÀ·Chûd
+ = 
+nuŒ±r
+;
+
+668 
+	gtm≤ode
+->
+	grightChûd
+ = 
+nuŒ±r
+;
+
+671 i‡(
+	gpoötSign
+ =
+E_RoŸ
+)
+
+674 
+roŸ
+ = 
+tm≤ode
+;
+
+676 i‡(
+	gpoötSign
+ =
+E_ChûdLe·
+)
+
+679 
+∑ª¡node
+->
+À·Chûd
+ = 
+tm≤ode
+;
+
+681 i‡(
+	gpoötSign
+ =
+E_ChûdRight
+)
+
+684 
+∑ª¡node
+->
+rightChûd
+ = 
+tm≤ode
+;
+
+686  
+	gtm≤ode
+;
+
+690 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+691 
+	gBö¨yTªe
+<
+	gT
+>::
+	$Cª©eBTªeAcc‹dPT
+(*
+p°r
+)
+
+693 
+	`Cª©eBTªeAcc‹dPTRecu
+(
+roŸ
+, 
+p°r
+);
+
+694 
+	}
+}
+
+696 
+	gãm∂©e
+ <
+ty≥«me
+ 
+	gT
+>
+
+697 
+	gBö¨yTªe
+<
+	gT
+>::
+Cª©eBTªeAcc‹dPTRecu
+(
+Bö¨yTªeNode
+<
+T
+> *&
+äode
+, *&
+p°r
+)
+
+700 i‡(*
+	gp°r
+ == '#')
+
+702 
+äode
+ = 
+nuŒ±r
+;
+
+707 
+	gäode
+ = 
+√w
+ 
+Bö¨yTªeNode
+<
+T
+>;
+
+708 
+	gäode
+->
+	gd©a
+ = *
+p°r
+;
+
+709 
+Cª©eBTªeAcc‹dPTRecu
+(
+äode
+->
+À·Chûd
+, ++
+p°r
+);
+
+710 
+Cª©eBTªeAcc‹dPTRecu
+(
+äode
+->
+rightChûd
+, ++
+p°r
+);
+
+716 
+	$maö
+()
+
+718 
+	`_CπSëDbgFœg
+(
+_CRTDBG_ALLOC_MEM_DF
+ | 
+_CRTDBG_LEAK_CHECK_DF
+);
+
+789 
+_nm•1
+::
+Bö¨yTªe
+<> 
+myåì
+;
+
+791 
+_nm•1
+::
+Bö¨yTªeNode
+<> *
+roŸpoöt
+ = 
+myåì
+.
+	`Cª©eNode
+(
+nuŒ±r
+, 
+E_RoŸ
+, 'A');
+
+792 
+_nm•1
+::
+Bö¨yTªeNode
+<> *
+subpoöt
+ = 
+myåì
+.
+	`Cª©eNode
+(
+roŸpoöt
+, 
+E_ChûdLe·
+, 'B');
+
+793 
+subpoöt
+ = 
+myåì
+.
+	`Cª©eNode
+(subpoöt, 
+E_ChûdLe·
+, 'D');
+
+795 
+subpoöt
+ = 
+myåì
+.
+	`Cª©eNode
+(
+roŸpoöt
+, 
+E_ChûdRight
+, 'C');
+
+796 
+subpoöt
+ = 
+myåì
+.
+	`Cª©eNode
+(subpoöt, 
+E_ChûdRight
+, 'E');
+
+799 
+_nm•1
+::
+Bö¨yTªe
+<> 
+myåì2
+;
+
+800 
+myåì2
+.
+	`Cª©eBTªeAcc‹dPT
+((*)"ABD###C#E##");
+
+802 
+cout
+ << "ÂâçÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
+
+803 
+myåì2
+.
+	`¥eOrdî
+();
+
+804 
+cout
+ << 
+ídl
+;
+
+806 
+cout
+ << "‰∏≠Â∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
+
+807 
+myåì2
+.
+	`öOrdî
+();
+
+808 
+cout
+ << 
+ídl
+;
+
+810 
+cout
+ << "ÂêéÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
+
+811 
+myåì2
+.
+	`po°Ordî
+();
+
+813 
+cout
+ << 
+ídl
+;
+
+814 
+cout
+ << "Â±ÇÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
+
+815 
+myåì2
+.
+	`ÀvñOrdî
+();
+
+817 
+cout
+ << 
+ídl
+;
+
+818 
+cout
+ << "‰∫åÂèâÊ†ëËäÇÁÇπ‰∏™Êï∞‰∏∫Ôºö" << 
+myåì2
+.
+	`gëSize
+(Ë<< 
+ídl
+;
+
+819 
+cout
+ << "‰∫åÂèâÊ†ëÈ´òÂ∫¶‰∏∫Ôºö" << 
+myåì2
+.
+	`gëHeight
+(Ë<< 
+ídl
+;
+
+822 
+vÆ
+ = 'B';
+
+823 
+_nm•1
+::
+Bö¨yTªeNode
+<> *
+p
+ = 
+myåì2
+.
+	`SórchEÀm
+(
+vÆ
+);
+
+824 i‡(
+p
+ !
+nuŒ±r
+)
+
+825 
+cout
+ << "ÊâæÂà∞‰∫ÜÂÄº‰∏∫" << ()
+vÆ
+ << "ÁöÑËäÇÁÇπ" << 
+ídl
+;
+
+827 
+cout
+ << "Ê≤°ÊâæÂà∞ÂÄº‰∏∫" << ()
+vÆ
+ << "ÁöÑËäÇÁÇπ" << 
+ídl
+;
+
+830 
+_nm•1
+::
+Bö¨yTªeNode
+<> *
+∑Ω
+ = 
+myåì2
+.
+	`GëP¨ít
+(
+p
+);
+
+831 i‡(
+∑Ω
+ !
+nuŒ±r
+)
+
+832 
+cout
+ << "ÊâæÂà∞‰∫ÜÂÄº‰∏∫" << ()
+vÆ
+ << "ÁöÑËäÇÁÇπÁöÑÁà∂ËäÇÁÇπ" << ()
+∑Ω
+->
+d©a
+ << 
+ídl
+;
+
+834 
+cout
+ << "Ê≤°ÊâæÂà∞ÂÄº‰∏∫" << ()
+vÆ
+ << "ÁöÑËäÇÁÇπÁöÑÁà∂ËäÇÁÇπ" << 
+ídl
+;
+
+837 
+_nm•1
+::
+Bö¨yTªe
+<> 
+myåì3
+;
+
+838 
+myåì2
+.
+	`C›yTªe
+(&
+myåì3
+);
+
+840 
+cout
+ << "ÈùûÈÄíÂΩíÊñπÂºèÂâçÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
+
+841 
+myåì2
+.
+	`¥eOrdî_noRecu
+();
+
+842 
+cout
+ << 
+ídl
+;
+
+844 
+cout
+ << "ÈùûÈÄíÂΩíÊñπÂºè‰∏≠Â∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
+
+845 
+myåì2
+.
+	`öOrdî_noRecu
+();
+
+846 
+cout
+ << 
+ídl
+;
+
+848 
+cout
+ << "ÈùûÈÄíÂΩíÊñπÂºèÂêéÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
+
+849 
+myåì2
+.
+	`po°Ordî_noRecu
+();
+
+850 
+cout
+ << 
+ídl
+;
+
+853 
 	}
 }
 
@@ -60543,3038 +63527,6 @@ usög
 	}
 }
 
-	@3 Ê†ë/5 Ê†ëÁöÑÈùûÈÄíÂΩíÈÅçÂéÜ Ê†à/MyProject.cpp
-
-5 
-	~<io°ªam
->
-
-6 
-	~<as£π.h
->
-
-8 #ifde‡
-_DEBUG
-
-
-9 #i‚de‡
-DEBUG_NEW
-
-
-10 
-	#DEBUG_NEW
- 
-	`√w
-(
-_NORMAL_BLOCK
-,
-__FILE__
-,
-__LINE__
-)
-
-11 
-	#√w
- 
-DEBUG_NEW
-
-
-	)
-
-16 
-usög
- 
-«me•a˚
- 
-	g°d
-;
-
-17 #¥agm®
-w¨nög
-(
-dißbÀ
- : 4996)
-
-20 
-	eECCHILDSIGN
-
-
-22 
-	mE_RoŸ
-,
-
-23 
-	mE_ChûdLe·
-,
-
-24 
-	mE_ChûdRight
-
-
-28 
-«me•a˚
- 
-	g_nm•_1
-
-
-31 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-32 
-	sSèckNode
-
-
-34 
-T
- 
-	gd©a
-;
-
-35 
-	gSèckNode
-<
-	gT
->* 
-	g√xt
-;
-
-39 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-40 ˛as†
-	cLökSèck
-
-
-42 
-	gpublic
-:
-
-43 
-LökSèck
-();
-
-44 ~
-LökSèck
-();
-
-46 
-	gpublic
-:
-
-47 
-boﬁ
- 
-Push
-(c⁄° 
-T
-& 
-e
-);
-
-48 
-boﬁ
- 
-P›
-(
-T
-& 
-e
-);
-
-49 
-boﬁ
- 
-GëT›
-(
-T
-& 
-e
-);
-
-51 
-Di•Li°
-();
-
-52 
-Li°Lígth
-();
-
-53 
-boﬁ
- 
-Em±y
-();
-
-55 
-	g¥iv©e
-:
-
-56 
-SèckNode
-<
-T
->* 
-m_t›
-;
-
-57 
-	gm_Àngth
-;
-
-61 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-62 
-	gLökSèck
-<
-	gT
->::
-	$LökSèck
-()
-
-64 
-m_t›
- = 
-nuŒ±r
-;
-
-65 
-m_Àngth
- = 0;
-
-66 
-	}
-}
-
-69 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-70 
-boﬁ
- 
-	gLökSèck
-<
-	gT
->::
-	$Push
-(c⁄° 
-T
-& 
-e
-)
-
-72 
-SèckNode
-<
-T
->* 
-node
- = 
-√w
- StackNode<T>;
-
-73 
-node
-->
-d©a
- = 
-e
-;
-
-74 
-node
-->
-√xt
- = 
-m_t›
-;
-
-75 
-m_t›
- = 
-node
-;
-
-76 
-m_Àngth
-++;
-
-77  
-åue
-;
-
-78 
-	}
-}
-
-81 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-82 
-boﬁ
- 
-	gLökSèck
-<
-	gT
->::
-	$P›
-(
-T
-& 
-e
-)
-
-84 i‡(
-	`Em±y
-(Ë=
-åue
-)
-
-85  
-Ál£
-;
-
-87 
-SèckNode
-<
-T
->* 
-p_wûldñ
- = 
-m_t›
-;
-
-88 
-m_t›
- = m_t›->
-√xt
-;
-
-89 
-m_Àngth
---;
-
-90 
-e
- = 
-p_wûldñ
-->
-d©a
-;
-
-91 
-dñëe
- 
-p_wûldñ
-;
-
-92  
-åue
-;
-
-93 
-	}
-}
-
-96 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-97 
-boﬁ
- 
-	gLökSèck
-<
-	gT
->::
-	$GëT›
-(
-T
-& 
-e
-)
-
-99 i‡(
-	`Em±y
-(Ë=
-åue
-)
-
-100  
-Ál£
-;
-
-102 
-e
- = 
-m_t›
-->
-d©a
-;
-
-103  
-åue
-;
-
-104 
-	}
-}
-
-107 
-	gãm∂©e
-<
-˛ass
- 
-	gT
->
-
-108 
-	gLökSèck
-<
-	gT
->::
-	$Di•Li°
-()
-
-110 i‡(
-	`Em±y
-(Ë=
-åue
-)
-
-113 
-SèckNode
-<
-T
->* 
-p
- = 
-m_t›
-;
-
-114 
-p
- !
-nuŒ±r
-)
-
-116 
-cout
- << 
-p
-->
-d©a
- << " ";
-
-117 
-p
- =Ö->
-√xt
-;
-
-119 
-cout
- << 
-ídl
-;
-
-120 
-	}
-}
-
-123 
-	gãm∂©e
-<
-˛ass
- 
-	gT
->
-
-124 
-	gLökSèck
-<
-	gT
->::
-	$Li°Lígth
-()
-
-126  
-m_Àngth
-;
-
-127 
-	}
-}
-
-130 
-	gãm∂©e
-<
-˛ass
- 
-	gT
->
-
-131 
-boﬁ
- 
-	gLökSèck
-<
-	gT
->::
-	$Em±y
-()
-
-133 i‡(
-m_t›
- =
-nuŒ±r
-)
-
-135  
-åue
-;
-
-137  
-Ál£
-;
-
-138 
-	}
-}
-
-141 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-142 
-	gLökSèck
-<
-	gT
->::~
-	$LökSèck
-()
-
-144 
-T
- 
-tm≤ou£vÆue
- = { 0 };
-
-145 
-	`P›
-(
-tm≤ou£vÆue
-Ë=
-åue
-) {}
-
-146 
-	}
-}
-
-150 
-«me•a˚
- 
-	g_nm•0
-
-
-153 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-154 
-	sQueueNode
-
-
-156 
-T
- 
-	gd©a
-;
-
-157 
-	gQueueNode
-<
-	gT
->* 
-	g√xt
-;
-
-161 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-162 ˛as†
-	cLökQueue
-
-
-164 
-	gpublic
-:
-
-165 
-LökQueue
-();
-
-166 ~
-LökQueue
-();
-
-168 
-	gpublic
-:
-
-169 
-boﬁ
- 
-EnQueue
-(c⁄° 
-T
-& 
-e
-);
-
-170 
-boﬁ
- 
-DeQueue
-(
-T
-& 
-e
-);
-
-171 
-boﬁ
- 
-GëHód
-(
-T
-& 
-e
-);
-
-173 
-Di•Li°
-();
-
-174 
-Li°Lígth
-();
-
-176 
-boﬁ
- 
-IsEm±y
-();
-
-178 
-	g¥iv©e
-:
-
-179 
-QueueNode
-<
-T
->* 
-m_‰⁄t
-;
-
-180 
-	gQueueNode
-<
-	gT
->* 
-	gm_ª¨
-;
-
-181 
-	gm_Àngth
-;
-
-185 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-186 
-	gLökQueue
-<
-	gT
->::
-	$LökQueue
-()
-
-188 
-m_‰⁄t
- = 
-√w
- 
-QueueNode
-<
-T
->;
-
-189 
-m_‰⁄t
-->
-√xt
- = 
-nuŒ±r
-;
-
-190 
-m_ª¨
- = 
-m_‰⁄t
-;
-
-191 
-m_Àngth
- = 0;
-
-196 
-	}
-}
-
-199 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-200 
-	gLökQueue
-<
-	gT
->::~
-	$LökQueue
-()
-
-202 
-QueueNode
-<
-T
->* 
-≤ode
- = 
-m_‰⁄t
-->
-√xt
-;
-
-203 
-QueueNode
-<
-T
->* 
-±mp
-;
-
-204 
-≤ode
- !
-nuŒ±r
-)
-
-206 
-±mp
- = 
-≤ode
-;
-
-207 
-≤ode
- =Önode->
-√xt
-;
-
-208 
-dñëe
- 
-±mp
-;
-
-210 
-dñëe
- 
-m_‰⁄t
-;
-
-211 
-m_‰⁄t
- = 
-m_ª¨
- = 
-nuŒ±r
-;
-
-212 
-m_Àngth
- = 0;
-
-213 
-	}
-}
-
-216 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-217 
-boﬁ
- 
-	gLökQueue
-<
-	gT
->::
-	$EnQueue
-(c⁄° 
-T
-& 
-e
-)
-
-219 
-QueueNode
-<
-T
->* 
-node
- = 
-√w
- QueueNode<T>;
-
-220 
-node
-->
-d©a
- = 
-e
-;
-
-221 
-node
-->
-√xt
- = 
-nuŒ±r
-;
-
-223 
-m_ª¨
-->
-√xt
- = 
-node
-;
-
-224 
-m_ª¨
- = 
-node
-;
-
-226 
-m_Àngth
-++;
-
-227  
-åue
-;
-
-228 
-	}
-}
-
-231 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-232 
-boﬁ
- 
-	gLökQueue
-<
-	gT
->::
-	$DeQueue
-(
-T
-& 
-e
-)
-
-234 i‡(
-	`IsEm±y
-(Ë=
-åue
-)
-
-236 
-cout
- << "ÂΩìÂâçÈìæÂºèÈòüÂàó‰∏∫Á©∫Ôºå‰∏çËÉΩËøõË°åÂá∫ÈòüÊìç‰Ωú!" << 
-ídl
-;
-
-237  
-Ál£
-;
-
-240 
-QueueNode
-<
-T
->* 
-p_wûldñ
- = 
-m_‰⁄t
-->
-√xt
-;
-
-241 
-e
- = 
-p_wûldñ
-->
-d©a
-;
-
-243 
-m_‰⁄t
-->
-√xt
- = 
-p_wûldñ
-->next;
-
-244 i‡(
-m_ª¨
- =
-p_wûldñ
-)
-
-245 
-m_ª¨
- = 
-m_‰⁄t
-;
-
-247 
-dñëe
- 
-p_wûldñ
-;
-
-248 
-m_Àngth
---;
-
-249  
-åue
-;
-
-250 
-	}
-}
-
-253 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-254 
-boﬁ
- 
-	gLökQueue
-<
-	gT
->::
-	$GëHód
-(
-T
-& 
-e
-)
-
-256 i‡(
-	`IsEm±y
-(Ë=
-åue
-)
-
-258 
-cout
- << "ÂΩìÂâçÈìæÂºèÈòüÂàó‰∏∫Á©∫Ôºå‰∏çËÉΩËØªÂèñÈòüÂ§¥ÂÖÉÁ¥†!" << 
-ídl
-;
-
-259  
-Ál£
-;
-
-262 
-e
- = 
-m_‰⁄t
-->
-√xt
-->
-d©a
-;
-
-263  
-åue
-;
-
-264 
-	}
-}
-
-267 
-	gãm∂©e
-<
-˛ass
- 
-	gT
->
-
-268 
-	gLökQueue
-<
-	gT
->::
-	$Di•Li°
-()
-
-270 
-QueueNode
-<
-T
->* 
-p
- = 
-m_‰⁄t
-->
-√xt
-;
-
-271 
-p
- !
-nuŒ±r
-)
-
-273 
-cout
- << 
-p
-->
-d©a
- << " ";
-
-274 
-p
- =Ö->
-√xt
-;
-
-276 
-cout
- << 
-ídl
-;
-
-277 
-	}
-}
-
-280 
-	gãm∂©e
-<
-˛ass
- 
-	gT
->
-
-281 
-	gLökQueue
-<
-	gT
->::
-	$Li°Lígth
-()
-
-283  
-m_Àngth
-;
-
-284 
-	}
-}
-
-287 
-	gãm∂©e
-<
-˛ass
- 
-	gT
->
-
-288 
-boﬁ
- 
-	gLökQueue
-<
-	gT
->::
-	$IsEm±y
-()
-
-290 i‡(
-m_‰⁄t
- =
-m_ª¨
-)
-
-292  
-åue
-;
-
-294  
-Ál£
-;
-
-295 
-	}
-}
-
-299 
-«me•a˚
- 
-	g_nm•1
-
-
-304 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-305 
-	sBö¨yTªeNode
-
-
-307 
-T
- 
-	gd©a
-;
-
-308 
-Bö¨yTªeNode
-* 
-	gÀ·Chûd
-,
-
-309 *
-	grightChûd
-;
-
-315 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-316 
-	sBTNode_exåa
-
-
-318 
-	gBö¨yTªeNode
-<
-	gT
->* 
-	gpoöt
-;
-
-319 
-ECCHILDSIGN
- 
-	gpoötSign
-;
-
-323 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-324 ˛as†
-	cBö¨yTªe
-
-
-326 
-	gpublic
-:
-
-327 
-Bö¨yTªe
-();
-
-328 ~
-Bö¨yTªe
-();
-
-329 
-	gpublic
-:
-
-331 
-Bö¨yTªeNode
-<
-T
->* 
-Cª©eNode
-(Bö¨yTªeNode<T>* 
-∑ª¡node
-, 
-ECCHILDSIGN
- 
-poötSign
-, c⁄° T& 
-e
-);
-
-333 
-RÀa£Node
-(
-Bö¨yTªeNode
-<
-T
->* 
-≤ode
-);
-
-335 
-	gpublic
-:
-
-337 
-Cª©eBTªeAcc‹dPT
-(* 
-p°r
-);
-
-338 
-	g¥iv©e
-:
-
-340 
-Cª©eBTªeAcc‹dPTRecu
-(
-Bö¨yTªeNode
-<
-T
->*& 
-äode
-, *& 
-p°r
-);
-
-342 
-	gpublic
-:
-
-344 
-¥eOrdî
-()
-
-346 
-¥eOrdî
-(
-roŸ
-);
-
-348 
-	g¥iv©e
-:
-
-349 
-¥eOrdî
-(
-Bö¨yTªeNode
-<
-T
->*& 
-tNode
-)
-
-351 i‡(
-tNode
- !
-nuŒ±r
-)
-
-354 
-cout
- << ()
-tNode
-->
-d©a
- << " ";
-
-355 
-¥eOrdî
-(
-tNode
-->
-À·Chûd
-);
-
-356 
-¥eOrdî
-(
-tNode
-->
-rightChûd
-);
-
-360 
-	gpublic
-:
-
-362 
-öOrdî
-()
-
-364 
-öOrdî
-(
-roŸ
-);
-
-366 
-	g¥iv©e
-:
-
-367 
-öOrdî
-(
-Bö¨yTªeNode
-<
-T
->*& 
-tNode
-)
-
-369 i‡(
-tNode
- !
-nuŒ±r
-)
-
-372 
-öOrdî
-(
-tNode
-->
-À·Chûd
-);
-
-373 
-	gcout
- << ()
-	gtNode
-->
-	gd©a
- << " ";
-
-374 
-öOrdî
-(
-tNode
-->
-rightChûd
-);
-
-378 
-	gpublic
-:
-
-380 
-po°Ordî
-()
-
-382 
-po°Ordî
-(
-roŸ
-);
-
-384 
-	g¥iv©e
-:
-
-385 
-po°Ordî
-(
-Bö¨yTªeNode
-<
-T
->*& 
-tNode
-)
-
-387 i‡(
-tNode
- !
-nuŒ±r
-)
-
-390 
-po°Ordî
-(
-tNode
-->
-À·Chûd
-);
-
-391 
-po°Ordî
-(
-tNode
-->
-rightChûd
-);
-
-392 
-	gcout
- << ()
-	gtNode
-->
-	gd©a
- << " ";
-
-396 
-	gpublic
-:
-
-398 
-ÀvñOrdî
-()
-
-400 
-ÀvñOrdî
-(
-roŸ
-);
-
-402 
-	g¥iv©e
-:
-
-403 
-ÀvñOrdî
-(
-Bö¨yTªeNode
-<
-T
->* 
-tNode
-)
-
-405 i‡(
-tNode
- !
-nuŒ±r
-)
-
-407 
-Bö¨yTªeNode
-<
-T
->* 
-tm≤ode
-;
-
-408 
-	g_nm•0
-::
-LökQueue
-< 
-Bö¨yTªeNode
-<
-T
->* > 
- obj
-;
-
-409 
-	g obj
-.
-EnQueue
-(
-tNode
-);
-
-410 !
-	g obj
-.
-IsEm±y
-())
-
-412 
-	g obj
-.
-DeQueue
-(
-tm≤ode
-);
-
-413 
-	gcout
- << ()
-	gtm≤ode
-->
-	gd©a
- << " ";
-
-416 i‡(
-	gtm≤ode
-->
-	gÀ·Chûd
- =
-nuŒ±r
- && 
-tm≤ode
-->
-rightChûd
- !=Çullptr)
-
-422 i‡(
-tm≤ode
-->
-À·Chûd
- !
-nuŒ±r
-)
-
-423 
- obj
-.
-EnQueue
-(
-tm≤ode
-->
-À·Chûd
-);
-
-424 i‡(
-	gtm≤ode
-->
-	grightChûd
- !
-nuŒ±r
-)
-
-425 
- obj
-.
-EnQueue
-(
-tm≤ode
-->
-rightChûd
-);
-
-430 
-	gpublic
-:
-
-432 
-gëSize
-()
-
-434  
-gëSize
-(
-roŸ
-);
-
-436 
-gëSize
-(
-Bö¨yTªeNode
-<
-T
->* 
-tNode
-)
-
-438 i‡(
-	gtNode
- =
-nuŒ±r
-)
-
-441  
-gëSize
-(
-tNode
-->
-À·Chûd
-Ë+ gëSize—Node->
-rightChûd
-) + 1;
-
-445 
-gëHeight
-()
-
-447  
-gëHeight
-(
-roŸ
-);
-
-449 
-gëHeight
-(
-Bö¨yTªeNode
-<
-T
->* 
-tNode
-)
-
-451 i‡(
-	gtNode
- =
-nuŒ±r
-)
-
-453 
-	glheight
- = 
-gëHeight
-(
-tNode
-->
-À·Chûd
-);
-
-454 
-	grheight
- = 
-gëHeight
-(
-tNode
-->
-rightChûd
-);
-
-455 i‡(
-	glheight
- > 
-	grheight
-)
-
-456  
-	glheight
- + 1;
-
-457  
-	grheight
- + 1;
-
-461 
-	gBö¨yTªeNode
-<
-	gT
->* 
-SórchEÀm
-(c⁄° 
-T
-& 
-e
-)
-
-463  
-SórchEÀm
-(
-roŸ
-, 
-e
-);
-
-465 
-	gBö¨yTªeNode
-<
-	gT
->* 
-SórchEÀm
-(
-Bö¨yTªeNode
-<
-T
->* 
-tNode
-, c⁄° T& 
-e
-)
-
-467 i‡(
-	gtNode
- =
-nuŒ±r
-)
-
-468  
-nuŒ±r
-;
-
-470 i‡(
-	gtNode
-->
-	gd©a
- =
-e
-)
-
-471  
-tNode
-;
-
-473 
-	gBö¨yTªeNode
-<
-	gT
->* 
-	gp
- = 
-SórchEÀm
-(
-tNode
-->
-À·Chûd
-, 
-e
-);
-
-474 i‡(
-	gp
- !
-nuŒ±r
-)
-
-475  
-p
-;
-
-476  
-SórchEÀm
-(
-tNode
-->
-rightChûd
-, 
-e
-);
-
-480 
-	gBö¨yTªeNode
-<
-	gT
->* 
-GëP¨ít
-(
-Bö¨yTªeNode
-<
-T
->* 
-tS⁄Node
-)
-
-482  
-GëP¨ít
-(
-roŸ
-,
-tS⁄Node
-);
-
-484 
-	gBö¨yTªeNode
-<
-	gT
->* 
-GëP¨ít
-(
-Bö¨yTªeNode
-<
-T
->* 
-tP¨Node
-, Bö¨yTªeNode<T>* 
-tS⁄Node
-)
-
-486 i‡(
-	gtP¨Node
- =
-nuŒ±r
- || 
-tS⁄Node
- ==Çullptr)
-
-487  
-nuŒ±r
-;
-
-489 i‡(
-	gtP¨Node
-->
-	gÀ·Chûd
- =
-tS⁄Node
- || 
-tP¨Node
-->
-rightChûd
- ==ÅSonNode)
-
-490  
-tP¨Node
-;
-
-492 
-	gBö¨yTªeNode
-<
-	gT
->* 
-	g∂
- = 
-GëP¨ít
-(
-tP¨Node
-->
-À·Chûd
-, 
-tS⁄Node
-);
-
-493 i‡(
-	g∂
- !
-nuŒ±r
-)
-
-494  
-∂
-;
-
-496  
-GëP¨ít
-(
-tP¨Node
-->
-rightChûd
-, 
-tS⁄Node
-);
-
-500 
-C›yTªe
-(
-Bö¨yTªe
-<
-T
->* 
-èrgëTªe
-)
-
-502 
-C›yTªe
-(
-roŸ
-, 
-èrgëTªe
-->root);
-
-504 
-C›yTªe
-(
-Bö¨yTªeNode
-<
-T
->* 
-tSour˚
-, Bö¨yTªeNode<T>* &
-tT¨gë
-)
-
-506 i‡(
-	gtSour˚
- =
-nuŒ±r
-)
-
-508 
-tT¨gë
- = 
-nuŒ±r
-;
-
-512 
-	gtT¨gë
- = 
-√w
- 
-Bö¨yTªeNode
-<
-T
->;
-
-513 
-	gtT¨gë
-->
-	gd©a
- = 
-tSour˚
-->
-d©a
-;
-
-515 
-C›yTªe
-(
-tSour˚
-->
-À·Chûd
-, 
-tT¨gë
-->leftChild);
-
-516 
-C›yTªe
-(
-tSour˚
-->
-rightChûd
-, 
-tT¨gë
-->rightChild);
-
-521 
-¥eOrdî_noRecu
-()
-
-523 
-¥eOrdî_noRecu
-(
-roŸ
-);
-
-525 
-¥eOrdî_noRecu
-(
-Bö¨yTªeNode
-<
-T
->* 
-tRoŸ
-)
-
-527 i‡(
-	gtRoŸ
- =
-nuŒ±r
-)
-
-530 
-	g_nm•_1
-::
-LökSèck
-< 
-Bö¨yTªeNode
-<
-T
->* > 
-¶ökobj
-;
-
-531 
-	g¶ökobj
-.
-Push
-(
-tRoŸ
-);
-
-533 
-	gBö¨yTªeNode
-<
-	gT
->* 
-	gtm≤ode
-;
-
-534 !
-	g¶ökobj
-.
-Em±y
-())
-
-536 
-	g¶ökobj
-.
-P›
-(
-tm≤ode
-);
-
-537 
-	gcout
- << ()
-	gtm≤ode
-->
-	gd©a
- << " ";
-
-539 i‡(
-	gtm≤ode
-->
-	grightChûd
- !
-nuŒ±r
-)
-
-541 
-¶ökobj
-.
-Push
-(
-tm≤ode
-->
-rightChûd
-);
-
-544 i‡(
-	gtm≤ode
-->
-	gÀ·Chûd
- !
-nuŒ±r
-)
-
-546 
-¶ökobj
-.
-Push
-(
-tm≤ode
-->
-À·Chûd
-);
-
-552 
-öOrdî_noRecu
-()
-
-554 
-öOrdî_noRecu
-(
-roŸ
-);
-
-556 
-öOrdî_noRecu
-(
-Bö¨yTªeNode
-<
-T
->* 
-tRoŸ
-)
-
-558 i‡(
-	gtRoŸ
- =
-nuŒ±r
-)
-
-561 
-	g_nm•_1
-::
-LökSèck
-< 
-Bö¨yTªeNode
-<
-T
->* > 
-¶ökobj
-;
-
-562 
-	g¶ökobj
-.
-Push
-(
-tRoŸ
-);
-
-564 
-	gBö¨yTªeNode
-<
-	gT
->* 
-	gtm≤ode
-;
-
-565 !
-	g¶ökobj
-.
-Em±y
-())
-
-567 
-	gtRoŸ
-->
-	gÀ·Chûd
- !
-nuŒ±r
-)
-
-569 
-¶ökobj
-.
-Push
-(
-tRoŸ
-->
-À·Chûd
-);
-
-570 
-	gtRoŸ
- = 
-tRoŸ
-->
-À·Chûd
-;
-
-573 
-	g¶ökobj
-.
-P›
-(
-tm≤ode
-);
-
-574 
-	gcout
- << ()
-	gtm≤ode
-->
-	gd©a
- << " ";
-
-577 i‡(
-	gtm≤ode
-->
-	grightChûd
- !
-nuŒ±r
-)
-
-579 
-tRoŸ
- = 
-tm≤ode
-->
-rightChûd
-;
-
-580 
-	g¶ökobj
-.
-Push
-(
-tRoŸ
-);
-
-586 
-po°Ordî_noRecu
-()
-
-588 
-po°Ordî_noRecu
-(
-roŸ
-);
-
-590 
-po°Ordî_noRecu
-(
-Bö¨yTªeNode
-<
-T
->* 
-tRoŸ
-)
-
-592 i‡(
-	gtRoŸ
- =
-nuŒ±r
-)
-
-595 
-	g_nm•_1
-::
-LökSèck
-< 
-BTNode_exåa
-<
-T
-> > 
-¶ökobj
-;
-
-596 
-	gBTNode_exåa
-<
-	gT
-> 
-	gext_tm≤ode
-;
-
-600 
-	gtRoŸ
- !
-nuŒ±r
-)
-
-602 
-ext_tm≤ode
-.
-poöt
- = 
-tRoŸ
-;
-
-603 
-	gext_tm≤ode
-.
-	gpoötSign
- = 
-E_ChûdLe·
-;
-
-604 
-	g¶ökobj
-.
-Push
-(
-ext_tm≤ode
-);
-
-605 
-	gtRoŸ
- = 
-tRoŸ
-->
-À·Chûd
-;
-
-608 !
-	g¶ökobj
-.
-Em±y
-())
-
-610 
-	g¶ökobj
-.
-P›
-(
-ext_tm≤ode
-);
-
-611 i‡(
-	gext_tm≤ode
-.
-	gpoötSign
- =
-E_ChûdLe·
-)
-
-613 
-ext_tm≤ode
-.
-poötSign
- = 
-E_ChûdRight
-;
-
-614 
-	g¶ökobj
-.
-Push
-(
-ext_tm≤ode
-);
-
-615 
-	gtRoŸ
- = 
-ext_tm≤ode
-.
-poöt
-->
-rightChûd
-;
-
-620 
-	gcout
- << ()
-	gext_tm≤ode
-.
-	gpoöt
-->
-	gd©a
- << " ";
-
-623 } !
-	g¶ökobj
-.
-Em±y
-());
-
-626 
-	g¥iv©e
-:
-
-627 
-Bö¨yTªeNode
-<
-T
->* 
-roŸ
-;
-
-631 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-632 
-	gBö¨yTªe
-<
-	gT
->::
-	$Bö¨yTªe
-()
-
-634 
-roŸ
- = 
-nuŒ±r
-;
-
-635 
-	}
-}
-
-637 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-638 
-	gBö¨yTªe
-<
-	gT
->::~
-	$Bö¨yTªe
-()
-
-640 
-	`RÀa£Node
-(
-roŸ
-);
-
-641 
-	}
-}
-
-644 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-645 
-	gBö¨yTªe
-<
-	gT
->::
-RÀa£Node
-(
-Bö¨yTªeNode
-<
-T
->* 
-≤ode
-)
-
-647 i‡(
-≤ode
- !
-nuŒ±r
-)
-
-649 
-RÀa£Node
-(
-≤ode
-->
-À·Chûd
-);
-
-650 
-RÀa£Node
-(
-≤ode
-->
-rightChûd
-);
-
-652 
-dñëe
- 
-	g≤ode
-;
-
-656 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-657 
-	gBö¨yTªeNode
-<
-	gT
->* 
-	gBö¨yTªe
-<T>::
-Cª©eNode
-(
-Bö¨yTªeNode
-<
-T
->* 
-∑ª¡node
-, 
-ECCHILDSIGN
- 
-poötSign
-, c⁄° T& 
-e
-)
-
-660 
-	gBö¨yTªeNode
-<
-	gT
->* 
-	gtm≤ode
- = 
-√w
- 
-Bö¨yTªeNode
-<
-T
->;
-
-661 
-	gtm≤ode
-->
-	gd©a
- = 
-e
-;
-
-662 
-	gtm≤ode
-->
-	gÀ·Chûd
- = 
-nuŒ±r
-;
-
-663 
-	gtm≤ode
-->
-	grightChûd
- = 
-nuŒ±r
-;
-
-666 i‡(
-	gpoötSign
- =
-E_RoŸ
-)
-
-669 
-roŸ
- = 
-tm≤ode
-;
-
-671 i‡(
-	gpoötSign
- =
-E_ChûdLe·
-)
-
-674 
-∑ª¡node
-->
-À·Chûd
- = 
-tm≤ode
-;
-
-676 i‡(
-	gpoötSign
- =
-E_ChûdRight
-)
-
-679 
-∑ª¡node
-->
-rightChûd
- = 
-tm≤ode
-;
-
-681  
-	gtm≤ode
-;
-
-685 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-686 
-	gBö¨yTªe
-<
-	gT
->::
-	$Cª©eBTªeAcc‹dPT
-(* 
-p°r
-)
-
-688 
-	`Cª©eBTªeAcc‹dPTRecu
-(
-roŸ
-, 
-p°r
-);
-
-689 
-	}
-}
-
-691 
-	gãm∂©e
- <
-ty≥«me
- 
-	gT
->
-
-692 
-	gBö¨yTªe
-<
-	gT
->::
-Cª©eBTªeAcc‹dPTRecu
-(
-Bö¨yTªeNode
-<
-T
->*& 
-äode
-, *& 
-p°r
-)
-
-695 i‡(*
-	gp°r
- == '#')
-
-697 
-äode
- = 
-nuŒ±r
-;
-
-702 
-	gäode
- = 
-√w
- 
-Bö¨yTªeNode
-<
-T
->;
-
-703 
-	gäode
-->
-	gd©a
- = *
-p°r
-;
-
-704 
-Cª©eBTªeAcc‹dPTRecu
-(
-äode
-->
-À·Chûd
-, ++
-p°r
-);
-
-705 
-Cª©eBTªeAcc‹dPTRecu
-(
-äode
-->
-rightChûd
-, ++
-p°r
-);
-
-711 
-	$maö
-()
-
-713 
-	`_CπSëDbgFœg
-(
-_CRTDBG_ALLOC_MEM_DF
- | 
-_CRTDBG_LEAK_CHECK_DF
-);
-
-795 
-_nm•1
-::
-Bö¨yTªe
-<> 
-myåì
-;
-
-797 
-_nm•1
-::
-Bö¨yTªeNode
-<>* 
-roŸpoöt
- = 
-myåì
-.
-	`Cª©eNode
-(
-nuŒ±r
-, 
-E_RoŸ
-, 'A');
-
-798 
-_nm•1
-::
-Bö¨yTªeNode
-<>* 
-subpoöt
- = 
-myåì
-.
-	`Cª©eNode
-(
-roŸpoöt
-, 
-E_ChûdLe·
-, 'B');
-
-799 
-subpoöt
- = 
-myåì
-.
-	`Cª©eNode
-(subpoöt, 
-E_ChûdLe·
-, 'D');
-
-801 
-subpoöt
- = 
-myåì
-.
-	`Cª©eNode
-(
-roŸpoöt
-, 
-E_ChûdRight
-, 'C');
-
-802 
-subpoöt
- = 
-myåì
-.
-	`Cª©eNode
-(subpoöt, 
-E_ChûdRight
-, 'E');
-
-806 
-_nm•1
-::
-Bö¨yTªe
-<> 
-myåì2
-;
-
-807 
-myåì2
-.
-	`Cª©eBTªeAcc‹dPT
-((*)"ABD###C#E##");
-
-809 
-cout
- << "ÂâçÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
-
-810 
-myåì2
-.
-	`¥eOrdî
-();
-
-811 
-cout
- << 
-ídl
-;
-
-814 
-cout
- << "‰∏≠Â∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
-
-815 
-myåì2
-.
-	`öOrdî
-();
-
-816 
-cout
- << 
-ídl
-;
-
-819 
-cout
- << "ÂêéÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
-
-820 
-myåì2
-.
-	`po°Ordî
-();
-
-822 
-cout
- << 
-ídl
-;
-
-823 
-cout
- << "Â±ÇÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
-
-824 
-myåì2
-.
-	`ÀvñOrdî
-();
-
-826 
-cout
- << 
-ídl
-;
-
-827 
-cout
- << "‰∫åÂèâÊ†ëËäÇÁÇπ‰∏™Êï∞‰∏∫Ôºö" << 
-myåì2
-.
-	`gëSize
-(Ë<< 
-ídl
-;
-
-828 
-cout
- << "‰∫åÂèâÊ†ëÈ´òÂ∫¶‰∏∫Ôºö" << 
-myåì2
-.
-	`gëHeight
-(Ë<< 
-ídl
-;
-
-831 
-vÆ
- = 'B';
-
-832 
-_nm•1
-::
-Bö¨yTªeNode
-<>* 
-p
- = 
-myåì2
-.
-	`SórchEÀm
-(
-vÆ
-);
-
-833 i‡(
-p
- !
-nuŒ±r
-)
-
-834 
-cout
- << "ÊâæÂà∞‰∫ÜÂÄº‰∏∫" << ()
-vÆ
- << "ÁöÑËäÇÁÇπ" << 
-ídl
-;
-
-836 
-cout
- << "Ê≤°ÊâæÂà∞ÂÄº‰∏∫" << ()
-vÆ
- << "ÁöÑËäÇÁÇπ" << 
-ídl
-;
-
-839 
-_nm•1
-::
-Bö¨yTªeNode
-<>* 
-∑Ω
- = 
-myåì2
-.
-	`GëP¨ít
-(
-p
-);
-
-840 i‡(
-∑Ω
- !
-nuŒ±r
-)
-
-841 
-cout
- << "ÊâæÂà∞‰∫ÜÂÄº‰∏∫" << ()
-vÆ
- << "ÁöÑËäÇÁÇπÁöÑÁà∂ËäÇÁÇπ" << ()
-∑Ω
-->
-d©a
- << 
-ídl
-;
-
-843 
-cout
- << "Ê≤°ÊâæÂà∞ÂÄº‰∏∫" << ()
-vÆ
- << "ÁöÑËäÇÁÇπÁöÑÁà∂ËäÇÁÇπ" << 
-ídl
-;
-
-847 
-_nm•1
-::
-Bö¨yTªe
-<> 
-myåì3
-;
-
-848 
-myåì2
-.
-	`C›yTªe
-(&
-myåì3
-);
-
-850 
-cout
- << "ÈùûÈÄíÂΩíÊñπÂºèÂâçÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
-
-851 
-myåì2
-.
-	`¥eOrdî_noRecu
-();
-
-852 
-cout
- << 
-ídl
-;
-
-854 
-cout
- << "ÈùûÈÄíÂΩíÊñπÂºè‰∏≠Â∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
-
-855 
-myåì2
-.
-	`öOrdî_noRecu
-();
-
-856 
-cout
- << 
-ídl
-;
-
-858 
-cout
- << "ÈùûÈÄíÂΩíÊñπÂºèÂêéÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
-
-859 
-myåì2
-.
-	`po°Ordî_noRecu
-();
-
-860 
-cout
- << 
-ídl
-;
-
-865 
-	}
-}
-
 	@3 Ê†ë/6 ÈÄöËøáÈÅçÂéÜÂ∫èÂàóÂàõÂª∫‰∫åÂèâÊ†ë/MyProject.cpp
 
 5 
@@ -63597,11 +63549,11 @@ DEBUG_NEW
 	#DEBUG_NEW
  
 	`√w
-(
+ (
 _NORMAL_BLOCK
-,
+, 
 __FILE__
-,
+, 
 __LINE__
 )
 
@@ -63671,7 +63623,7 @@ T
 	gSèckNode
 <
 	gT
->* 
+> *
 	g√xt
 ;
 
@@ -63709,7 +63661,7 @@ boﬁ
 Push
 (c⁄° 
 T
-& 
+ &
 e
 );
 
@@ -63719,7 +63671,7 @@ boﬁ
 P›
 (
 T
-& 
+ &
 e
 );
 
@@ -63729,7 +63681,7 @@ boﬁ
 GëT›
 (
 T
-& 
+ &
 e
 );
 
@@ -63755,7 +63707,7 @@ Em±y
 SèckNode
 <
 T
->* 
+> *
 m_t›
 ;
 
@@ -63811,7 +63763,7 @@ boﬁ
 	$Push
 (c⁄° 
 T
-& 
+ &
 e
 )
 
@@ -63819,7 +63771,7 @@ e
 SèckNode
 <
 T
->* 
+> *
 node
  = 
 √w
@@ -63877,7 +63829,7 @@ boﬁ
 	$P›
 (
 T
-& 
+ &
 e
 )
 
@@ -63895,7 +63847,7 @@ e
 SèckNode
 <
 T
->* 
+> *
 p_wûldñ
  = 
 m_t›
@@ -63951,7 +63903,7 @@ boﬁ
 	$GëT›
 (
 T
-& 
+ &
 e
 )
 
@@ -63983,7 +63935,7 @@ d©a
 
 107 
 	gãm∂©e
-<
+ <
 ˛ass
  
 	gT
@@ -64007,7 +63959,7 @@ d©a
 SèckNode
 <
 T
->* 
+> *
 p
  = 
 m_t›
@@ -64045,7 +63997,7 @@ cout
 
 123 
 	gãm∂©e
-<
+ <
 ˛ass
  
 	gT
@@ -64069,7 +64021,7 @@ m_Àngth
 
 130 
 	gãm∂©e
-<
+ <
 ˛ass
  
 	gT
@@ -64123,7 +64075,7 @@ ty≥«me
 T
  
 tm≤ou£vÆue
- = { 0 };
+ = {0};
 
 145 
 	`P›
@@ -64131,19 +64083,19 @@ tm≤ou£vÆue
 tm≤ou£vÆue
 Ë=
 åue
-) {}
+)
 
-146 
+148 
 	}
 }
 
-150 
+152 
 «me•a˚
  
 	g_nm•0
 
 
-153 
+155 
 	gãm∂©e
  <
 ty≥«me
@@ -64151,25 +64103,25 @@ ty≥«me
 	gT
 >
 
-154 
+156 
 	sQueueNode
 
 
-156 
+158 
 T
  
 	gd©a
 ;
 
-157 
+159 
 	gQueueNode
 <
 	gT
->* 
+> *
 	g√xt
 ;
 
-161 
+163 
 	gãm∂©e
  <
 ty≥«me
@@ -64177,95 +64129,95 @@ ty≥«me
 	gT
 >
 
-162 ˛as†
+164 ˛as†
 	cLökQueue
 
 
-164 
+166 
 	gpublic
 :
 
-165 
+167 
 LökQueue
 ();
 
-166 ~
+168 ~
 LökQueue
 ();
 
-168 
+170 
 	gpublic
 :
 
-169 
+171 
 boﬁ
  
 EnQueue
 (c⁄° 
 T
-& 
+ &
 e
 );
 
-170 
+172 
 boﬁ
  
 DeQueue
 (
 T
-& 
+ &
 e
 );
 
-171 
+173 
 boﬁ
  
 GëHód
 (
 T
-& 
+ &
 e
 );
 
-173 
+175 
 Di•Li°
 ();
 
-174 
+176 
 Li°Lígth
 ();
 
-176 
+178 
 boﬁ
  
 IsEm±y
 ();
 
-178 
+180 
 	g¥iv©e
 :
 
-179 
+181 
 QueueNode
 <
 T
->* 
+> *
 m_‰⁄t
 ;
 
-180 
+182 
 	gQueueNode
 <
 	gT
->* 
+> *
 	gm_ª¨
 ;
 
-181 
+183 
 	gm_Àngth
 ;
 
-185 
+187 
 	gãm∂©e
  <
 ty≥«me
@@ -64273,7 +64225,7 @@ ty≥«me
 	gT
 >
 
-186 
+188 
 	gLökQueue
 <
 	gT
@@ -64281,7 +64233,7 @@ ty≥«me
 	$LökQueue
 ()
 
-188 
+190 
 m_‰⁄t
  = 
 √w
@@ -64291,7 +64243,7 @@ QueueNode
 T
 >;
 
-189 
+191 
 m_‰⁄t
 ->
 √xt
@@ -64299,21 +64251,21 @@ m_‰⁄t
 nuŒ±r
 ;
 
-190 
+192 
 m_ª¨
  = 
 m_‰⁄t
 ;
 
-191 
+193 
 m_Àngth
  = 0;
 
-196 
+198 
 	}
 }
 
-199 
+201 
 	gãm∂©e
  <
 ty≥«me
@@ -64321,7 +64273,7 @@ ty≥«me
 	gT
 >
 
-200 
+202 
 	gLökQueue
 <
 	gT
@@ -64329,11 +64281,11 @@ ty≥«me
 	$LökQueue
 ()
 
-202 
+204 
 QueueNode
 <
 T
->* 
+> *
 ≤ode
  = 
 m_‰⁄t
@@ -64341,45 +64293,45 @@ m_‰⁄t
 √xt
 ;
 
-203 
+205 
 QueueNode
 <
 T
->* 
+> *
 ±mp
 ;
 
-204 
+206 
 ≤ode
  !
 nuŒ±r
 )
 
-206 
+208 
 ±mp
  = 
 ≤ode
 ;
 
-207 
+209 
 ≤ode
  =Önode->
 √xt
 ;
 
-208 
+210 
 dñëe
  
 ±mp
 ;
 
-210 
+212 
 dñëe
  
 m_‰⁄t
 ;
 
-211 
+213 
 m_‰⁄t
  = 
 m_ª¨
@@ -64387,15 +64339,15 @@ m_ª¨
 nuŒ±r
 ;
 
-212 
+214 
 m_Àngth
  = 0;
 
-213 
+215 
 	}
 }
 
-216 
+218 
 	gãm∂©e
  <
 ty≥«me
@@ -64403,7 +64355,7 @@ ty≥«me
 	gT
 >
 
-217 
+219 
 boﬁ
  
 	gLökQueue
@@ -64413,21 +64365,21 @@ boﬁ
 	$EnQueue
 (c⁄° 
 T
-& 
+ &
 e
 )
 
-219 
+221 
 QueueNode
 <
 T
->* 
+> *
 node
  = 
 √w
  QueueNode<T>;
 
-220 
+222 
 node
 ->
 d©a
@@ -64435,7 +64387,7 @@ d©a
 e
 ;
 
-221 
+223 
 node
 ->
 √xt
@@ -64443,7 +64395,7 @@ node
 nuŒ±r
 ;
 
-223 
+225 
 m_ª¨
 ->
 √xt
@@ -64451,25 +64403,25 @@ m_ª¨
 node
 ;
 
-224 
+226 
 m_ª¨
  = 
 node
 ;
 
-226 
+228 
 m_Àngth
 ++;
 
-227  
+229  
 åue
 ;
 
-228 
+230 
 	}
 }
 
-231 
+233 
 	gãm∂©e
  <
 ty≥«me
@@ -64477,7 +64429,7 @@ ty≥«me
 	gT
 >
 
-232 
+234 
 boﬁ
  
 	gLökQueue
@@ -64487,31 +64439,31 @@ boﬁ
 	$DeQueue
 (
 T
-& 
+ &
 e
 )
 
-234 i‡(
+236 i‡(
 	`IsEm±y
 (Ë=
 åue
 )
 
-236 
+238 
 cout
  << "ÂΩìÂâçÈìæÂºèÈòüÂàó‰∏∫Á©∫Ôºå‰∏çËÉΩËøõË°åÂá∫ÈòüÊìç‰Ωú!" << 
 ídl
 ;
 
-237  
+239  
 Ál£
 ;
 
-240 
+242 
 QueueNode
 <
 T
->* 
+> *
 p_wûldñ
  = 
 m_‰⁄t
@@ -64519,7 +64471,7 @@ m_‰⁄t
 √xt
 ;
 
-241 
+243 
 e
  = 
 p_wûldñ
@@ -64527,7 +64479,7 @@ p_wûldñ
 d©a
 ;
 
-243 
+245 
 m_‰⁄t
 ->
 √xt
@@ -64535,37 +64487,37 @@ m_‰⁄t
 p_wûldñ
 ->next;
 
-244 i‡(
+246 i‡(
 m_ª¨
  =
 p_wûldñ
 )
 
-245 
+247 
 m_ª¨
  = 
 m_‰⁄t
 ;
 
-247 
+249 
 dñëe
  
 p_wûldñ
 ;
 
-248 
+250 
 m_Àngth
 --;
 
-249  
+251  
 åue
 ;
 
-250 
+252 
 	}
 }
 
-253 
+255 
 	gãm∂©e
  <
 ty≥«me
@@ -64573,7 +64525,7 @@ ty≥«me
 	gT
 >
 
-254 
+256 
 boﬁ
  
 	gLökQueue
@@ -64583,27 +64535,27 @@ boﬁ
 	$GëHód
 (
 T
-& 
+ &
 e
 )
 
-256 i‡(
+258 i‡(
 	`IsEm±y
 (Ë=
 åue
 )
 
-258 
+260 
 cout
  << "ÂΩìÂâçÈìæÂºèÈòüÂàó‰∏∫Á©∫Ôºå‰∏çËÉΩËØªÂèñÈòüÂ§¥ÂÖÉÁ¥†!" << 
 ídl
 ;
 
-259  
+261  
 Ál£
 ;
 
-262 
+264 
 e
  = 
 m_‰⁄t
@@ -64613,23 +64565,23 @@ m_‰⁄t
 d©a
 ;
 
-263  
+265  
 åue
 ;
 
-264 
+266 
 	}
 }
 
-267 
+269 
 	gãm∂©e
-<
+ <
 ˛ass
  
 	gT
 >
 
-268 
+270 
 	gLökQueue
 <
 	gT
@@ -64637,11 +64589,11 @@ d©a
 	$Di•Li°
 ()
 
-270 
+272 
 QueueNode
 <
 T
->* 
+> *
 p
  = 
 m_‰⁄t
@@ -64649,13 +64601,13 @@ m_‰⁄t
 √xt
 ;
 
-271 
+273 
 p
  !
 nuŒ±r
 )
 
-273 
+275 
 cout
  << 
 p
@@ -64663,31 +64615,31 @@ p
 d©a
  << " ";
 
-274 
+276 
 p
  =Ö->
 √xt
 ;
 
-276 
+278 
 cout
  << 
 ídl
 ;
 
-277 
+279 
 	}
 }
 
-280 
+282 
 	gãm∂©e
-<
+ <
 ˛ass
  
 	gT
 >
 
-281 
+283 
 	gLökQueue
 <
 	gT
@@ -64695,23 +64647,23 @@ cout
 	$Li°Lígth
 ()
 
-283  
+285  
 m_Àngth
 ;
 
-284 
+286 
 	}
 }
 
-287 
+289 
 	gãm∂©e
-<
+ <
 ˛ass
  
 	gT
 >
 
-288 
+290 
 boﬁ
  
 	gLökQueue
@@ -64721,31 +64673,31 @@ boﬁ
 	$IsEm±y
 ()
 
-290 i‡(
+292 i‡(
 m_‰⁄t
  =
 m_ª¨
 )
 
-292  
+294  
 åue
 ;
 
-294  
+296  
 Ál£
 ;
 
-295 
+297 
 	}
 }
 
-299 
+301 
 «me•a˚
  
 	g_nm•1
 
 
-304 
+305 
 	gãm∂©e
  <
 ty≥«me
@@ -64753,39 +64705,39 @@ ty≥«me
 	gT
 >
 
-305 
+306 
 	sBö¨yTªeNode
 
 
-307 
+308 
 T
  
 	gd©a
 ;
 
-308 
+309 
 Bö¨yTªeNode
-* 
+ *
 	gÀ·Chûd
 ,
 
-309 *
+310 *
 	grightChûd
-;
-
-313 
-öt8_t
- 
-	gÀ·Tag
 ;
 
 314 
 öt8_t
  
+	gÀ·Tag
+;
+
+315 
+öt8_t
+ 
 	grightTag
 ;
 
-318 
+319 
 	gãm∂©e
  <
 ty≥«me
@@ -64793,25 +64745,25 @@ ty≥«me
 	gT
 >
 
-319 
+320 
 	sBTNode_exåa
 
 
-321 
+322 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 	gpoöt
 ;
 
-322 
+323 
 ECCHILDSIGN
  
 	gpoötSign
 ;
 
-326 
+327 
 	gãm∂©e
  <
 ty≥«me
@@ -64819,113 +64771,113 @@ ty≥«me
 	gT
 >
 
-327 ˛as†
+328 ˛as†
 	cBö¨yTªe
 
 
-329 
-	gpublic
-:
-
 330 
-Bö¨yTªe
-();
-
-331 ~
-Bö¨yTªe
-();
-
-332 
 	gpublic
 :
 
-334 
+331 
+Bö¨yTªe
+();
+
+332 ~
+Bö¨yTªe
+();
+
+333 
+	gpublic
+:
+
+335 
 Bö¨yTªeNode
 <
 T
->* 
+> *
 Cª©eNode
-(Bö¨yTªeNode<T>* 
+(Bö¨yTªeNode<T> *
 ∑ª¡node
 , 
 ECCHILDSIGN
  
 poötSign
-, c⁄° T& 
+, c⁄° T &
 e
 );
 
-336 
+337 
 RÀa£Node
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *
 ≤ode
 );
 
-338 
+339 
 	gpublic
 :
 
-340 
+341 
 Cª©eBTªeAcc‹dPT
-(* 
+(*
 p°r
 );
 
-341 
+343 
 	g¥iv©e
 :
 
-343 
+345 
 Cª©eBTªeAcc‹dPTRecu
 (
 Bö¨yTªeNode
 <
 T
->*& 
+> *&
 äode
-, *& 
+, *&
 p°r
 );
 
-345 
+347 
 	gpublic
 :
 
-347 
+349 
 ¥eOrdî
 ()
 
-349 
+351 
 ¥eOrdî
 (
 roŸ
 );
 
-351 
+354 
 	g¥iv©e
 :
 
-352 
+355 
 ¥eOrdî
 (
 Bö¨yTªeNode
 <
 T
->*& 
+> *&
 tNode
 )
 
-354 i‡(
+357 i‡(
 tNode
  !
 nuŒ±r
 )
 
-357 
+360 
 cout
  << ()
 tNode
@@ -64933,7 +64885,7 @@ tNode
 d©a
  << " ";
 
-358 
+361 
 ¥eOrdî
 (
 tNode
@@ -64941,7 +64893,7 @@ tNode
 À·Chûd
 );
 
-359 
+362 
 ¥eOrdî
 (
 tNode
@@ -64949,41 +64901,41 @@ tNode
 rightChûd
 );
 
-363 
+366 
 	gpublic
 :
 
-365 
+368 
 öOrdî
 ()
 
-367 
+370 
 öOrdî
 (
 roŸ
 );
 
-369 
+373 
 	g¥iv©e
 :
 
-370 
+374 
 öOrdî
 (
 Bö¨yTªeNode
 <
 T
->*& 
+> *&
 tNode
 )
 
-372 i‡(
+376 i‡(
 tNode
  !
 nuŒ±r
 )
 
-375 
+379 
 öOrdî
 (
 tNode
@@ -64991,57 +64943,57 @@ tNode
 À·Chûd
 );
 
-376 
+380 
 	gcout
  << ()
 	gtNode
 ->
 	gd©a
  << " ";
-
-377 
-öOrdî
-(
-tNode
-->
-rightChûd
-);
 
 381 
+öOrdî
+(
+tNode
+->
+rightChûd
+);
+
+385 
 	gpublic
 :
 
-383 
+387 
 po°Ordî
 ()
 
-385 
+389 
 po°Ordî
 (
 roŸ
 );
 
-387 
+392 
 	g¥iv©e
 :
 
-388 
+393 
 po°Ordî
 (
 Bö¨yTªeNode
 <
 T
->*& 
+> *&
 tNode
 )
 
-390 i‡(
+395 i‡(
 tNode
  !
 nuŒ±r
 )
 
-393 
+398 
 po°Ordî
 (
 tNode
@@ -65049,7 +65001,7 @@ tNode
 À·Chûd
 );
 
-394 
+399 
 po°Ordî
 (
 tNode
@@ -65057,7 +65009,7 @@ tNode
 rightChûd
 );
 
-395 
+400 
 	gcout
  << ()
 	gtNode
@@ -65065,61 +65017,61 @@ rightChûd
 	gd©a
  << " ";
 
-399 
+404 
 	gpublic
-:
-
-401 
-ÀvñOrdî
-()
-
-403 
-ÀvñOrdî
-(
-roŸ
-);
-
-405 
-	g¥iv©e
 :
 
 406 
 ÀvñOrdî
+()
+
+408 
+ÀvñOrdî
+(
+roŸ
+);
+
+411 
+	g¥iv©e
+:
+
+412 
+ÀvñOrdî
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *
 tNode
 )
 
-408 i‡(
+414 i‡(
 tNode
  !
 nuŒ±r
 )
 
-410 
+416 
 Bö¨yTªeNode
 <
 T
->* 
+> *
 tm≤ode
 ;
 
-411 
+417 
 	g_nm•0
 ::
 LökQueue
-< 
+<
 Bö¨yTªeNode
 <
 T
->* > 
+> *> 
  obj
 ;
 
-412 
+418 
 	g obj
 .
 EnQueue
@@ -65127,13 +65079,13 @@ EnQueue
 tNode
 );
 
-413 !
+419 !
 	g obj
 .
 IsEm±y
 ())
 
-415 
+421 
 	g obj
 .
 DeQueue
@@ -65141,7 +65093,7 @@ DeQueue
 tm≤ode
 );
 
-416 
+422 
 	gcout
  << ()
 	gtm≤ode
@@ -65149,7 +65101,7 @@ tm≤ode
 	gd©a
  << " ";
 
-419 i‡(
+425 i‡(
 	gtm≤ode
 ->
 	gÀ·Chûd
@@ -65161,7 +65113,7 @@ tm≤ode
 rightChûd
  !=Çullptr)
 
-425 i‡(
+430 i‡(
 tm≤ode
 ->
 À·Chûd
@@ -65169,7 +65121,7 @@ tm≤ode
 nuŒ±r
 )
 
-426 
+431 
  obj
 .
 EnQueue
@@ -65179,7 +65131,7 @@ tm≤ode
 À·Chûd
 );
 
-427 i‡(
+432 i‡(
 	gtm≤ode
 ->
 	grightChûd
@@ -65187,7 +65139,7 @@ tm≤ode
 nuŒ±r
 )
 
-428 
+433 
  obj
 .
 EnQueue
@@ -65197,37 +65149,37 @@ tm≤ode
 rightChûd
 );
 
-433 
+438 
 	gpublic
 :
 
-435 
+440 
 gëSize
 ()
 
-437  
+442  
 gëSize
 (
 roŸ
 );
 
-439 
+444 
 gëSize
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *
 tNode
 )
 
-441 i‡(
+446 i‡(
 	gtNode
  =
 nuŒ±r
 )
 
-444  
+449  
 gëSize
 (
 tNode
@@ -65237,33 +65189,33 @@ tNode
 rightChûd
 ) + 1;
 
-448 
+453 
 gëHeight
 ()
 
-450  
+455  
 gëHeight
 (
 roŸ
 );
 
-452 
+457 
 gëHeight
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *
 tNode
 )
 
-454 i‡(
+459 i‡(
 	gtNode
  =
 nuŒ±r
 )
 
-456 
+461 
 	glheight
  = 
 gëHeight
@@ -65273,7 +65225,7 @@ tNode
 À·Chûd
 );
 
-457 
+462 
 	grheight
  = 
 gëHeight
@@ -65283,33 +65235,33 @@ tNode
 rightChûd
 );
 
-458 i‡(
+463 i‡(
 	glheight
  > 
 	grheight
 )
 
-459  
+464  
 	glheight
  + 1;
 
-460  
+465  
 	grheight
  + 1;
 
-464 
+469 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 SórchEÀm
 (c⁄° 
 T
-& 
+ &
 e
 )
 
-466  
+471  
 SórchEÀm
 (
 roŸ
@@ -65317,33 +65269,33 @@ roŸ
 e
 );
 
-468 
+473 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 SórchEÀm
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *
 tNode
-, c⁄° T& 
+, c⁄° T &
 e
 )
 
-470 i‡(
+475 i‡(
 	gtNode
  =
 nuŒ±r
 )
 
-471  
+476  
 nuŒ±r
 ;
 
-473 i‡(
+478 i‡(
 	gtNode
 ->
 	gd©a
@@ -65351,15 +65303,15 @@ nuŒ±r
 e
 )
 
-474  
+479  
 tNode
 ;
 
-476 
+481 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 	gp
  = 
 SórchEÀm
@@ -65371,17 +65323,17 @@ tNode
 e
 );
 
-477 i‡(
+482 i‡(
 	gp
  !
 nuŒ±r
 )
 
-478  
+483  
 p
 ;
 
-479  
+484  
 SórchEÀm
 (
 tNode
@@ -65391,45 +65343,45 @@ rightChûd
 e
 );
 
-483 
+488 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 GëP¨ít
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *
 tS⁄Node
 )
 
-485  
+490  
 GëP¨ít
 (
 roŸ
-,
+, 
 tS⁄Node
 );
 
-487 
+492 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 GëP¨ít
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *
 tP¨Node
-, Bö¨yTªeNode<T>* 
+, Bö¨yTªeNode<T> *
 tS⁄Node
 )
 
-489 i‡(
+494 i‡(
 	gtP¨Node
  =
 nuŒ±r
@@ -65437,11 +65389,11 @@ nuŒ±r
 tS⁄Node
  ==Çullptr)
 
-490  
+495  
 nuŒ±r
 ;
 
-492 i‡(
+497 i‡(
 	gtP¨Node
 ->
 	gÀ·Chûd
@@ -65453,15 +65405,15 @@ tP¨Node
 rightChûd
  ==ÅSonNode)
 
-493  
+498  
 tP¨Node
 ;
 
-495 
+500 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 	g∂
  = 
 GëP¨ít
@@ -65473,17 +65425,17 @@ tP¨Node
 tS⁄Node
 );
 
-496 i‡(
+501 i‡(
 	g∂
  !
 nuŒ±r
 )
 
-497  
+502  
 ∂
 ;
 
-499  
+504  
 GëP¨ít
 (
 tP¨Node
@@ -65493,17 +65445,17 @@ rightChûd
 tS⁄Node
 );
 
-503 
+508 
 C›yTªe
 (
 Bö¨yTªe
 <
 T
->* 
+> *
 èrgëTªe
 )
 
-505 
+510 
 C›yTªe
 (
 roŸ
@@ -65511,31 +65463,31 @@ roŸ
 èrgëTªe
 ->root);
 
-507 
+512 
 C›yTªe
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *
 tSour˚
-, Bö¨yTªeNode<T>* &
+, Bö¨yTªeNode<T> *&
 tT¨gë
 )
 
-509 i‡(
+514 i‡(
 	gtSour˚
  =
 nuŒ±r
 )
 
-511 
+516 
 tT¨gë
  = 
 nuŒ±r
 ;
 
-515 
+520 
 	gtT¨gë
  = 
 √w
@@ -65545,7 +65497,7 @@ Bö¨yTªeNode
 T
 >;
 
-516 
+521 
 	gtT¨gë
 ->
 	gd©a
@@ -65555,7 +65507,7 @@ tSour˚
 d©a
 ;
 
-518 
+523 
 C›yTªe
 (
 tSour˚
@@ -65565,7 +65517,7 @@ tSour˚
 tT¨gë
 ->leftChild);
 
-519 
+524 
 C›yTªe
 (
 tSour˚
@@ -65575,45 +65527,45 @@ rightChûd
 tT¨gë
 ->rightChild);
 
-524 
+529 
 ¥eOrdî_noRecu
 ()
 
-526 
+531 
 ¥eOrdî_noRecu
 (
 roŸ
 );
 
-528 
+533 
 ¥eOrdî_noRecu
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *
 tRoŸ
 )
 
-530 i‡(
+535 i‡(
 	gtRoŸ
  =
 nuŒ±r
 )
 
-533 
+538 
 	g_nm•_1
 ::
 LökSèck
-< 
+<
 Bö¨yTªeNode
 <
 T
->* > 
+> *> 
 ¶ökobj
 ;
 
-534 
+539 
 	g¶ökobj
 .
 Push
@@ -65621,21 +65573,21 @@ Push
 tRoŸ
 );
 
-536 
+541 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 	gtm≤ode
 ;
 
-537 !
+542 !
 	g¶ökobj
 .
 Em±y
 ())
 
-539 
+544 
 	g¶ökobj
 .
 P›
@@ -65643,7 +65595,7 @@ P›
 tm≤ode
 );
 
-540 
+545 
 	gcout
  << ()
 	gtm≤ode
@@ -65651,28 +65603,10 @@ tm≤ode
 	gd©a
  << " ";
 
-542 i‡(
-	gtm≤ode
-->
-	grightChûd
- !
-nuŒ±r
-)
-
-544 
-¶ökobj
-.
-Push
-(
-tm≤ode
-->
-rightChûd
-);
-
 547 i‡(
 	gtm≤ode
 ->
-	gÀ·Chûd
+	grightChûd
  !
 nuŒ±r
 )
@@ -65684,48 +65618,66 @@ Push
 (
 tm≤ode
 ->
+rightChûd
+);
+
+552 i‡(
+	gtm≤ode
+->
+	gÀ·Chûd
+ !
+nuŒ±r
+)
+
+554 
+¶ökobj
+.
+Push
+(
+tm≤ode
+->
 À·Chûd
 );
 
-555 
+560 
 öOrdî_noRecu
 ()
 
-557 
+562 
 öOrdî_noRecu
 (
 roŸ
 );
 
-559 
+564 
 öOrdî_noRecu
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *
 tRoŸ
 )
 
-561 i‡(
+566 i‡(
 	gtRoŸ
  =
 nuŒ±r
 )
 
-564 
+569 
 	g_nm•_1
 ::
 LökSèck
-< 
+<
 Bö¨yTªeNode
 <
 T
->* > 
+> *> 
 ¶ökobj
 ;
 
-565 
+570 
 	g¶ökobj
 .
 Push
@@ -65733,21 +65685,21 @@ Push
 tRoŸ
 );
 
-567 
+572 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 	gtm≤ode
 ;
 
-568 !
+573 !
 	g¶ökobj
 .
 Em±y
 ())
 
-570 
+575 
 	gtRoŸ
 ->
 	gÀ·Chûd
@@ -65755,7 +65707,7 @@ Em±y
 nuŒ±r
 )
 
-572 
+577 
 ¶ökobj
 .
 Push
@@ -65765,7 +65717,7 @@ tRoŸ
 À·Chûd
 );
 
-573 
+578 
 	gtRoŸ
  = 
 tRoŸ
@@ -65773,7 +65725,7 @@ tRoŸ
 À·Chûd
 ;
 
-576 
+581 
 	g¶ökobj
 .
 P›
@@ -65781,7 +65733,7 @@ P›
 tm≤ode
 );
 
-577 
+582 
 	gcout
  << ()
 	gtm≤ode
@@ -65789,7 +65741,7 @@ tm≤ode
 	gd©a
  << " ";
 
-580 i‡(
+585 i‡(
 	gtm≤ode
 ->
 	grightChûd
@@ -65797,7 +65749,7 @@ tm≤ode
 nuŒ±r
 )
 
-582 
+587 
 tRoŸ
  = 
 tm≤ode
@@ -65805,7 +65757,7 @@ tm≤ode
 rightChûd
 ;
 
-583 
+588 
 	g¶ökobj
 .
 Push
@@ -65813,45 +65765,45 @@ Push
 tRoŸ
 );
 
-589 
+594 
 po°Ordî_noRecu
 ()
 
-591 
+596 
 po°Ordî_noRecu
 (
 roŸ
 );
 
-593 
+598 
 po°Ordî_noRecu
 (
 Bö¨yTªeNode
 <
 T
->* 
+> *
 tRoŸ
 )
 
-595 i‡(
+600 i‡(
 	gtRoŸ
  =
 nuŒ±r
 )
 
-598 
+603 
 	g_nm•_1
 ::
 LökSèck
-< 
+<
 BTNode_exåa
 <
 T
-> > 
+>> 
 ¶ökobj
 ;
 
-599 
+604 
 	gBTNode_exåa
 <
 	gT
@@ -65859,13 +65811,13 @@ T
 	gext_tm≤ode
 ;
 
-603 
+608 
 	gtRoŸ
  !
 nuŒ±r
 )
 
-605 
+610 
 ext_tm≤ode
 .
 poöt
@@ -65873,7 +65825,7 @@ poöt
 tRoŸ
 ;
 
-606 
+611 
 	gext_tm≤ode
 .
 	gpoötSign
@@ -65881,7 +65833,7 @@ tRoŸ
 E_ChûdLe·
 ;
 
-607 
+612 
 	g¶ökobj
 .
 Push
@@ -65889,7 +65841,7 @@ Push
 ext_tm≤ode
 );
 
-608 
+613 
 	gtRoŸ
  = 
 tRoŸ
@@ -65897,13 +65849,13 @@ tRoŸ
 À·Chûd
 ;
 
-611 !
+616 !
 	g¶ökobj
 .
 Em±y
 ())
 
-613 
+618 
 	g¶ökobj
 .
 P›
@@ -65911,7 +65863,7 @@ P›
 ext_tm≤ode
 );
 
-614 i‡(
+619 i‡(
 	gext_tm≤ode
 .
 	gpoötSign
@@ -65919,7 +65871,7 @@ ext_tm≤ode
 E_ChûdLe·
 )
 
-616 
+621 
 ext_tm≤ode
 .
 poötSign
@@ -65927,7 +65879,7 @@ poötSign
 E_ChûdRight
 ;
 
-617 
+622 
 	g¶ökobj
 .
 Push
@@ -65935,7 +65887,7 @@ Push
 ext_tm≤ode
 );
 
-618 
+623 
 	gtRoŸ
  = 
 ext_tm≤ode
@@ -65945,7 +65897,7 @@ poöt
 rightChûd
 ;
 
-623 
+628 
 	gcout
  << ()
 	gext_tm≤ode
@@ -65955,21 +65907,21 @@ rightChûd
 	gd©a
  << " ";
 
-626 } !
+631 } !
 	g¶ökobj
 .
 Em±y
 ());
 
-631 
+636 
 Cª©eBTªeAcc‹dPI
-(* 
+(*
 pP_T
-, * 
+, *
 pI_T
 )
 
-633 
+638 
 Cª©eBTªeAcc‹dPI
 (
 roŸ
@@ -65977,41 +65929,41 @@ roŸ
 pP_T
 , 
 pI_T
-,
+, 
 °æí
 (pP_T));
 
-636 
+641 
 Cª©eBTªeAcc‹dPI
 (
 Bö¨yTªeNode
 <
 T
->*& 
+> *&
 äode
-, * 
+, *
 pP_T
-, * 
+, *
 pI_T
 , 
 n
 )
 
-638 i‡(
+643 i‡(
 	gn
  == 0)
 
-640 
+645 
 äode
  = 
 nuŒ±r
 ;
 
-645 
+650 
 	gtmpödex
  = 0;
 
-646 
+651 
 	gpP_T
 [0] !
 pI_T
@@ -66019,11 +65971,11 @@ pI_T
 tmpödex
 ])
 
-647 
+652 
 tmpödex
 ++;
 
-649 
+654 
 	gäode
  = 
 √w
@@ -66033,7 +65985,7 @@ Bö¨yTªeNode
 T
 >;
 
-650 
+655 
 	gäode
 ->
 	gd©a
@@ -66043,65 +65995,65 @@ pI_T
 tmpödex
 ];
 
-653 
+658 
 Cª©eBTªeAcc‹dPI
 (
 
-654 
+659 
 äode
 ->
 À·Chûd
 ,
 
-655 
+660 
 pP_T
  + 1,
 
-656 
+661 
 pI_T
 ,
 
-657 
+662 
 tmpödex
 
 
-661 
+666 
 Cª©eBTªeAcc‹dPI
 (
 
-662 
+667 
 äode
 ->
 rightChûd
 ,
 
-663 
+668 
 pP_T
  + 
 tmpödex
  + 1,
 
-665 
+670 
 pI_T
  + 
 tmpödex
  + 1,
 
-666 
+671 
 n
  - 
 tmpödex
  - 1
 
-672 
+677 
 Cª©eBTªeAcc‹dIPO
-(* 
+(*
 pI_T
-, * 
+, *
 pPOST_T
 )
 
-674 
+679 
 Cª©eBTªeAcc‹dIPO
 (
 roŸ
@@ -66113,37 +66065,37 @@ pPOST_T
 °æí
 (pI_T));
 
-677 
+682 
 Cª©eBTªeAcc‹dIPO
 (
 Bö¨yTªeNode
 <
 T
->*& 
+> *&
 äode
-, * 
+, *
 pI_T
-, * 
+, *
 pPOST_T
 , 
 n
 )
 
-680 i‡(
+685 i‡(
 	gn
  == 0)
 
-682 
+687 
 äode
  = 
 nuŒ±r
 ;
 
-687 
+692 
 	gtmpödex
  = 0;
 
-688 
+693 
 	gpPOST_T
 [
 n
@@ -66153,11 +66105,11 @@ pI_T
 tmpödex
 ])
 
-689 ++
+694 ++
 tmpödex
 ;
 
-691 
+696 
 	gäode
  = 
 √w
@@ -66167,7 +66119,7 @@ Bö¨yTªeNode
 T
 >;
 
-692 
+697 
 	gäode
 ->
 	gd©a
@@ -66177,69 +66129,69 @@ pI_T
 tmpödex
 ];
 
-695 
+700 
 Cª©eBTªeAcc‹dIPO
 (
 
-696 
+701 
 äode
 ->
 À·Chûd
 ,
 
-697 
+702 
 pI_T
 ,
 
-698 
+703 
 pPOST_T
 ,
 
-699 
+704 
 tmpödex
 
 
-703 
+708 
 Cª©eBTªeAcc‹dIPO
 (
 
-704 
+709 
 äode
 ->
 rightChûd
 ,
 
-705 
+710 
 pI_T
  + 
 tmpödex
  + 1,
 
-706 
+711 
 pPOST_T
-+
+ + 
 tmpödex
 ,
 
-707 
-n
--
-tmpödex
--1
-
 712 
+n
+ - 
+tmpödex
+ - 1
+
+717 
 	g¥iv©e
 :
 
-713 
+718 
 Bö¨yTªeNode
 <
 T
->* 
+> *
 roŸ
 ;
 
-717 
+722 
 	gãm∂©e
  <
 ty≥«me
@@ -66247,7 +66199,7 @@ ty≥«me
 	gT
 >
 
-718 
+723 
 	gBö¨yTªe
 <
 	gT
@@ -66255,17 +66207,17 @@ ty≥«me
 	$Bö¨yTªe
 ()
 
-720 
+725 
 roŸ
  = 
 nuŒ±r
 ;
 
-721 
+726 
 	}
 }
 
-723 
+728 
 	gãm∂©e
  <
 ty≥«me
@@ -66273,7 +66225,7 @@ ty≥«me
 	gT
 >
 
-724 
+729 
 	gBö¨yTªe
 <
 	gT
@@ -66281,17 +66233,17 @@ ty≥«me
 	$Bö¨yTªe
 ()
 
-726 
+731 
 	`RÀa£Node
 (
 roŸ
 );
 
-727 
+732 
 	}
 }
 
-730 
+735 
 	gãm∂©e
  <
 ty≥«me
@@ -66299,7 +66251,7 @@ ty≥«me
 	gT
 >
 
-731 
+736 
 	gBö¨yTªe
 <
 	gT
@@ -66309,17 +66261,17 @@ RÀa£Node
 Bö¨yTªeNode
 <
 T
->* 
+> *
 ≤ode
 )
 
-733 i‡(
+738 i‡(
 ≤ode
  !
 nuŒ±r
 )
 
-735 
+740 
 RÀa£Node
 (
 ≤ode
@@ -66327,7 +66279,7 @@ RÀa£Node
 À·Chûd
 );
 
-736 
+741 
 RÀa£Node
 (
 ≤ode
@@ -66335,13 +66287,13 @@ RÀa£Node
 rightChûd
 );
 
-738 
+743 
 dñëe
  
 	g≤ode
 ;
 
-742 
+747 
 	gãm∂©e
  <
 ty≥«me
@@ -66349,11 +66301,11 @@ ty≥«me
 	gT
 >
 
-743 
+748 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 	gBö¨yTªe
 <T>::
 Cª©eNode
@@ -66361,21 +66313,21 @@ Cª©eNode
 Bö¨yTªeNode
 <
 T
->* 
+> *
 ∑ª¡node
 , 
 ECCHILDSIGN
  
 poötSign
-, c⁄° T& 
+, c⁄° T &
 e
 )
 
-746 
+751 
 	gBö¨yTªeNode
 <
 	gT
->* 
+> *
 	gtm≤ode
  = 
 √w
@@ -66385,7 +66337,7 @@ Bö¨yTªeNode
 T
 >;
 
-747 
+752 
 	gtm≤ode
 ->
 	gd©a
@@ -66393,7 +66345,7 @@ T
 e
 ;
 
-748 
+753 
 	gtm≤ode
 ->
 	gÀ·Chûd
@@ -66401,7 +66353,7 @@ e
 nuŒ±r
 ;
 
-749 
+754 
 	gtm≤ode
 ->
 	grightChûd
@@ -66409,25 +66361,25 @@ nuŒ±r
 nuŒ±r
 ;
 
-752 i‡(
+757 i‡(
 	gpoötSign
  =
 E_RoŸ
 )
 
-755 
+760 
 roŸ
  = 
 tm≤ode
 ;
 
-757 i‡(
+762 i‡(
 	gpoötSign
  =
 E_ChûdLe·
 )
 
-760 
+765 
 ∑ª¡node
 ->
 À·Chûd
@@ -66435,13 +66387,13 @@ E_ChûdLe·
 tm≤ode
 ;
 
-762 i‡(
+767 i‡(
 	gpoötSign
  =
 E_ChûdRight
 )
 
-765 
+770 
 ∑ª¡node
 ->
 rightChûd
@@ -66449,11 +66401,11 @@ rightChûd
 tm≤ode
 ;
 
-767  
+772  
 	gtm≤ode
 ;
 
-771 
+776 
 	gãm∂©e
  <
 ty≥«me
@@ -66461,17 +66413,17 @@ ty≥«me
 	gT
 >
 
-772 
+777 
 	gBö¨yTªe
 <
 	gT
 >::
 	$Cª©eBTªeAcc‹dPT
-(* 
+(*
 p°r
 )
 
-774 
+779 
 	`Cª©eBTªeAcc‹dPTRecu
 (
 roŸ
@@ -66479,11 +66431,11 @@ roŸ
 p°r
 );
 
-775 
+780 
 	}
 }
 
-777 
+782 
 	gãm∂©e
  <
 ty≥«me
@@ -66491,7 +66443,7 @@ ty≥«me
 	gT
 >
 
-778 
+783 
 	gBö¨yTªe
 <
 	gT
@@ -66501,23 +66453,23 @@ Cª©eBTªeAcc‹dPTRecu
 Bö¨yTªeNode
 <
 T
->*& 
+> *&
 äode
-, *& 
+, *&
 p°r
 )
 
-781 i‡(*
+786 i‡(*
 	gp°r
  == '#')
 
-783 
+788 
 äode
  = 
 nuŒ±r
 ;
 
-788 
+793 
 	gäode
  = 
 √w
@@ -66527,7 +66479,7 @@ Bö¨yTªeNode
 T
 >;
 
-789 
+794 
 	gäode
 ->
 	gd©a
@@ -66535,7 +66487,7 @@ T
 p°r
 ;
 
-790 
+795 
 Cª©eBTªeAcc‹dPTRecu
 (
 äode
@@ -66545,7 +66497,7 @@ Cª©eBTªeAcc‹dPTRecu
 p°r
 );
 
-791 
+796 
 Cª©eBTªeAcc‹dPTRecu
 (
 äode
@@ -66555,11 +66507,11 @@ rightChûd
 p°r
 );
 
-797 
+802 
 	$maö
 ()
 
-799 
+804 
 	`_CπSëDbgFœg
 (
 _CRTDBG_ALLOC_MEM_DF
@@ -66567,7 +66519,7 @@ _CRTDBG_ALLOC_MEM_DF
 _CRTDBG_LEAK_CHECK_DF
 );
 
-888 
+887 
 _nm•1
 ::
 Bö¨yTªe
@@ -66575,11 +66527,11 @@ Bö¨yTªe
 myåì
 ;
 
-890 
+889 
 _nm•1
 ::
 Bö¨yTªeNode
-<>* 
+<> *
 roŸpoöt
  = 
 myåì
@@ -66591,11 +66543,11 @@ nuŒ±r
 E_RoŸ
 , 'A');
 
-891 
+890 
 _nm•1
 ::
 Bö¨yTªeNode
-<>* 
+<> *
 subpoöt
  = 
 myåì
@@ -66607,7 +66559,7 @@ roŸpoöt
 E_ChûdLe·
 , 'B');
 
-892 
+891 
 subpoöt
  = 
 myåì
@@ -66617,7 +66569,7 @@ myåì
 E_ChûdLe·
 , 'D');
 
-894 
+893 
 subpoöt
  = 
 myåì
@@ -66629,7 +66581,7 @@ roŸpoöt
 E_ChûdRight
 , 'C');
 
-895 
+894 
 subpoöt
  = 
 myåì
@@ -66639,7 +66591,7 @@ myåì
 E_ChûdRight
 , 'E');
 
-899 
+897 
 _nm•1
 ::
 Bö¨yTªe
@@ -66647,39 +66599,55 @@ Bö¨yTªe
 myåì2
 ;
 
-902 
+900 
 myåì2
 .
 	`Cª©eBTªeAcc‹dIPO
 ((*)"DBACE", (*)"DBECA");
 
-904 
+902 
 cout
  << "ÂâçÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
 
-905 
+903 
 myåì2
 .
 	`¥eOrdî
 ();
 
-906 
+904 
 cout
  << 
 ídl
 ;
 
-909 
+906 
 cout
  << "‰∏≠Â∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
 
-910 
+907 
 myåì2
 .
 	`öOrdî
 ();
 
+908 
+cout
+ << 
+ídl
+;
+
+910 
+cout
+ << "ÂêéÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
+
 911 
+myåì2
+.
+	`po°Ordî
+();
+
+913 
 cout
  << 
 ídl
@@ -66687,12 +66655,12 @@ cout
 
 914 
 cout
- << "ÂêéÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
+ << "Â±ÇÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
 
 915 
 myåì2
 .
-	`po°Ordî
+	`ÀvñOrdî
 ();
 
 917 
@@ -66703,22 +66671,6 @@ cout
 
 918 
 cout
- << "Â±ÇÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
-
-919 
-myåì2
-.
-	`ÀvñOrdî
-();
-
-921 
-cout
- << 
-ídl
-;
-
-922 
-cout
  << "‰∫åÂèâÊ†ëËäÇÁÇπ‰∏™Êï∞‰∏∫Ôºö" << 
 myåì2
 .
@@ -66727,7 +66679,7 @@ myåì2
 ídl
 ;
 
-923 
+919 
 cout
  << "‰∫åÂèâÊ†ëÈ´òÂ∫¶‰∏∫Ôºö" << 
 myåì2
@@ -66737,15 +66689,15 @@ myåì2
 ídl
 ;
 
-926 
+922 
 vÆ
  = 'B';
 
-927 
+923 
 _nm•1
 ::
 Bö¨yTªeNode
-<>* 
+<> *
 p
  = 
 myåì2
@@ -66755,13 +66707,13 @@ myåì2
 vÆ
 );
 
-928 i‡(
+924 i‡(
 p
  !
 nuŒ±r
 )
 
-929 
+925 
 cout
  << "ÊâæÂà∞‰∫ÜÂÄº‰∏∫" << ()
 vÆ
@@ -66769,7 +66721,7 @@ vÆ
 ídl
 ;
 
-931 
+927 
 cout
  << "Ê≤°ÊâæÂà∞ÂÄº‰∏∫" << ()
 vÆ
@@ -66777,11 +66729,11 @@ vÆ
 ídl
 ;
 
-934 
+930 
 _nm•1
 ::
 Bö¨yTªeNode
-<>* 
+<> *
 ∑Ω
  = 
 myåì2
@@ -66791,13 +66743,13 @@ myåì2
 p
 );
 
-935 i‡(
+931 i‡(
 ∑Ω
  !
 nuŒ±r
 )
 
-936 
+932 
 cout
  << "ÊâæÂà∞‰∫ÜÂÄº‰∏∫" << ()
 vÆ
@@ -66809,7 +66761,7 @@ d©a
 ídl
 ;
 
-938 
+934 
 cout
  << "Ê≤°ÊâæÂà∞ÂÄº‰∏∫" << ()
 vÆ
@@ -66817,7 +66769,7 @@ vÆ
 ídl
 ;
 
-942 
+937 
 _nm•1
 ::
 Bö¨yTªe
@@ -66825,7 +66777,7 @@ Bö¨yTªe
 myåì3
 ;
 
-943 
+938 
 myåì2
 .
 	`C›yTªe
@@ -66833,55 +66785,55 @@ myåì2
 myåì3
 );
 
-945 
+940 
 cout
  << "ÈùûÈÄíÂΩíÊñπÂºèÂâçÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
 
-946 
+941 
 myåì2
 .
 	`¥eOrdî_noRecu
 ();
 
-947 
+942 
 cout
  << 
 ídl
 ;
 
-949 
+944 
 cout
  << "ÈùûÈÄíÂΩíÊñπÂºè‰∏≠Â∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
 
-950 
+945 
 myåì2
 .
 	`öOrdî_noRecu
 ();
 
-951 
+946 
+cout
+ << 
+ídl
+;
+
+948 
+cout
+ << "ÈùûÈÄíÂΩíÊñπÂºèÂêéÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
+
+949 
+myåì2
+.
+	`po°Ordî_noRecu
+();
+
+950 
 cout
  << 
 ídl
 ;
 
 953 
-cout
- << "ÈùûÈÄíÂΩíÊñπÂºèÂêéÂ∫èÈÅçÂéÜÂ∫èÂàó‰∏∫Ôºö";
-
-954 
-myåì2
-.
-	`po°Ordî_noRecu
-();
-
-955 
-cout
- << 
-ídl
-;
-
-960 
 	}
 }
 
@@ -121726,20 +121678,21 @@ __GCC_IEC_559_COMPLEX
 1 ÁÆóÊ≥ïÊ¶ÇËø∞‰∏éÂü∫Êú¨Ê¶ÇÂøµ/2 ÁÆóÊ≥ïÊïàÁéáÂ∫¶Èáè/MyProject.cpp
 1 ÁÆóÊ≥ïÊ¶ÇËø∞‰∏éÂü∫Êú¨Ê¶ÇÂøµ/3/MyProject.cpp
 2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/1 Á∫øÊÄßË°®ÁöÑÈ°∫Â∫èÂ≠òÂÇ®/MyProject.cpp
-2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/10 ÈìæÂºèÈòüÂàó/MyProject.cpp
 2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/2 ÂçïÈìæË°®/MyProject.cpp
-2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/5 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/1.ÂèåÈìæË°®/MyProject.cpp
-2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/5 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/2.ÂçïÂæ™ÁéØÈìæË°®/MyProject.cpp
-2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/5 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/3.ÂèåÂæ™ÁéØÈìæË°®/MyProject.cpp
-2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/5 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/MyProject.cpp
-2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/6 ÈùôÊÄÅÈìæË°®/MyProject.cpp
-2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/7 È°∫Â∫èÊ†à/MyProject.cpp
-2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/8 ÈìæÂºèÊ†à/MyProject.cpp
-2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/9 È°∫Â∫èÈòüÂàó/MyProject.cpp
+2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/3 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/1.ÂèåÈìæË°®/MyProject.cpp
+2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/3 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/2.ÂçïÂæ™ÁéØÈìæË°®/MyProject.cpp
+2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/3 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/3.ÂèåÂæ™ÁéØÈìæË°®/MyProject.cpp
+2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/3 ÂèåÈìæË°® Âæ™ÁéØÈìæË°®/MyProject.cpp
+2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/4 ÈùôÊÄÅÈìæË°®/MyProject.cpp
+2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/5 È°∫Â∫èÊ†à/MyProject.cpp
+2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/6 ÈìæÂºèÊ†à/MyProject.cpp
+2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/7 È°∫Â∫èÈòüÂàó/MyProject.cpp
+2Á∫øÊÄßÊï∞ÊçÆÁªìÊûÑ/8 ÈìæÂºèÈòüÂàó/MyProject.cpp
 3 Ê†ë/01 Ê†ëÁöÑÊ¶ÇÂøµ‰∏éÊÄßË¥®/MyProject.cpp
 3 Ê†ë/02 Ê†ëÈÅçÂéÜ‰º™‰ª£Á†Å/MyProject.cpp
 3 Ê†ë/03 Ê†ëÁöÑÈ°∫Â∫èÂ≠òÂÇ®/MyProject.cpp
 3 Ê†ë/04 Ê†ëÁöÑÈÄíÂΩíÈÅçÂéÜ Ââç‰∏≠ÂêéÂíåÂ±ÇÊ¨°(ÈòüÂàó)/MyProject.cpp
+3 Ê†ë/05 Ê†ëÁöÑÈùûÈÄíÂΩíÈÅçÂéÜ Ê†à/MyProject.cpp
 3 Ê†ë/10 ‰∫åÂèâÊü•ÊâæÊ†ëÂàùÂßãÂåñ‰∏éËäÇÁÇπÊèíÂÖ•Êü•Êâæ/MyProject.cpp
 3 Ê†ë/11 ‰∫åÂèâÊü•ÊâæÊ†ë ÂâçÈ©±‰∏éÂêéÁªßËäÇÁÇπÊü•Êâæ/MyProject.cpp
 3 Ê†ë/12 ‰∫åÂèâÊü•ÊâæÊ†ëÊó∂Èó¥Â§çÊùÇÂ∫¶ÂàÜÊûê ‰∫åÂèâÂπ≥Ë°°Ê†ëÂàùÂßãÂåñ/MyProject_1.cpp
@@ -121772,7 +121725,6 @@ __GCC_IEC_559_COMPLEX
 3 Ê†ë/36/MyProject.cpp
 3 Ê†ë/37/MyProject.cpp
 3 Ê†ë/38 B+Ê†ëÂü∫Êú¨Ê¶ÇÂøµ/MyProject.cpp
-3 Ê†ë/5 Ê†ëÁöÑÈùûÈÄíÂΩíÈÅçÂéÜ Ê†à/MyProject.cpp
 3 Ê†ë/6 ÈÄöËøáÈÅçÂéÜÂ∫èÂàóÂàõÂª∫‰∫åÂèâÊ†ë/MyProject.cpp
 3 Ê†ë/7 Á∫øÁ¥¢‰∫åÂèâÊ†ëÂàùÂßãÂåñÊìç‰Ωú/MyProject.cpp
 3 Ê†ë/8 Á∫øÁ¥¢‰∫åÂèâÊ†ëÁöÑÂÖ∂‰ªñÊìç‰Ωú/MyProject.cpp
